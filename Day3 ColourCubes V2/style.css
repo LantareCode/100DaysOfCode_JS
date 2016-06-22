@@ -1,0 +1,207 @@
+html, body,{
+    height: 100%;   
+    position: relative;  
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #191134;
+}
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+    color: antiquewhite;
+    font-size: 500%;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+p{    
+    font-family: 'Bungee Shade', cursive;
+    color: antiquewhite;
+    font-size: 300%;
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin:0;
+}
+
+#text{
+    position: absolute;
+    top:-240%;
+    
+    padding:0;
+    margin:0;
+    
+    
+    width: 1150px;
+    height: 400px;
+}
+
+.wrap{
+    position: absolute;
+    top:50%;
+    left:50%;
+	margin: -60px 0 0 -575px;
+    
+    width: 1150px;
+    height: 180px;
+    
+    border: 3px;
+    border-style: solid;    
+    border-color: antiquewhite;
+}
+
+
+#score{
+    position: absolute;
+    top:120%;
+    left:50%;
+	margin: 0 0 0 -575px;
+    
+    width: 1150px;
+    height: 70px;
+        
+    font-family: 'Bungee Shade', cursive;       
+    color: antiquewhite;
+    font-size: 170%;
+    text-align: center;  
+}
+
+
+#start{
+    position: absolute;
+    top:170%;
+    left:50%;
+	margin: 0 0 0 -150px;
+    padding: 0;
+    
+    width: 300px;
+    
+    font-family: 'Bungee Shade', cursive;       
+    color: antiquewhite;
+    font-size: 300%;
+    text-align: center;    
+    cursor: crosshair;    
+}
+
+#cube1{opacity: 1;}#cube2{opacity: 1;}#cube3{opacity: 1;}
+#cube4{opacity: 1;}#cube5{opacity: 1;}#cube6{opacity: 1;}
+#cube7{opacity: 1;}
+
+
+.cube {/*FRONT*/
+    position: relative; 
+    display: inline-block;
+    height: 100px;
+    width: 99px;
+   
+    margin: 30px;
+    top: 15px;
+    left: 15px;
+    
+    background-color: #AD141E;
+     cursor: crosshair; 
+}
+    .cube:before,
+    .cube:after {
+        position: absolute;
+        content: "";                 
+        }
+    .cube:before {/*TOP*/
+        top: -15px;
+        left: -13px;
+        
+        height: 15px;        
+        width: 100px; 
+        
+        transform: skew(60deg);
+        background-color: #DB1926;
+    }
+    .cube:after {/*SIDE*/
+        left: -27px;
+        top: -8px;
+        
+        height: 100px;        
+        width: 27px; 
+        
+        transform: skewY(30deg);
+        background-color: #7F0F16;
+    }
+    /*Red*/
+        .cube:nth-child(1){
+            background-color: #B20000;
+                animation: appear 3s linear infinite;
+        }
+        .cube:nth-child(1):before{/*TOP*/
+            background-color: #CC0000;
+        }
+        .cube:nth-child(1):after{/*SIDE*/
+            background-color: #7F0000;
+        }
+    /*Orange*/
+        .cube:nth-child(2){
+            background-color: #CC5100; 
+                animation: appear 4s;
+        }
+        .cube:nth-child(2):before{/*TOP*/
+            background-color: #FF6600;
+        }
+        .cube:nth-child(2):after{/*SIDE*/
+            background-color: #993D00;
+        }
+    /*Yellow*/
+        .cube:nth-child(3){
+            background-color: #CCBE00;
+                animation: appear 4s;
+        }
+        .cube:nth-child(3):before{/*TOP*/
+            background-color: #FFEE00;
+        }
+        .cube:nth-child(3):after{/*SIDE*/
+            background-color: #998E00;
+        }
+    /*Green*/
+        .cube:nth-child(4){
+            background-color: #00CC00;
+                animation: appear 4s;
+        }
+        .cube:nth-child(4):before{/*TOP*/
+            background-color: #00FF00;
+        }
+        .cube:nth-child(4):after{/*SIDE*/
+            background-color: #009900;
+        }
+    /*Blue*/
+        .cube:nth-child(5){
+            background-color: #007ACC;
+                animation: appear 4s;
+        }
+        .cube:nth-child(5):before{/*TOP*/
+            background-color: #0099FF;
+        }
+        .cube:nth-child(5):after{/*SIDE*/
+            background-color: #004C7F;
+        }
+    /*Indigo*/
+        .cube:nth-child(6){
+            background-color: #3D00E5;
+                animation: appear 4s;
+        }
+        .cube:nth-child(6):before{/*TOP*/
+            background-color: #5619FF;
+        }
+        .cube:nth-child(6):after{/*SIDE*/
+            background-color: #280099;
+        }
+    /*Violet*/
+        .cube:nth-child(7){
+            background-color: #7A00CC;
+                animation: appear 4s;
+        }
+        .cube:nth-child(7):before{/*TOP*/
+            background-color: #9900FF;
+        }
+        .cube:nth-child(7):after{/*SIDE*/
+            background-color: #5B0099;
+        }
