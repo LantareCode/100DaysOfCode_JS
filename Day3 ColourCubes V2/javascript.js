@@ -1,1 +1,0 @@
-//document.getElementById("cube1").style.opacity = "1";
