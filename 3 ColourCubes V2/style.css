@@ -78,8 +78,10 @@ p{
     text-align: center;  
 }
 
-
-#start{
+#stop{
+    visibility: hidden;
+}
+#start, #stop{
     position: absolute;
     top:170%;
     left:50%;
@@ -94,7 +96,7 @@ p{
     text-align: center;    
     cursor: crosshair;    
 }
-#start:hover{
+#start, #stop:hover{
      background: -webkit-linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

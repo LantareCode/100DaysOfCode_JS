@@ -1,0 +1,23 @@
+
+     -----------
+   /           /|
+  /           / |
+  ------------  |
+ |            | |
+ |            | |
+ |            | / 
+ |            |/
+  ------------
+      
+
+make each cube appear and disappear at random times
+
+when cube clicked while active:
+    -   Add point
+    -   Hide cube and call appear function
+
+Maybes:
+    sound effects
+    +1 points pop ups.
+
+
