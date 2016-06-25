@@ -10,7 +10,7 @@
   ------------
       
 
-make each cube appear and disappear at random times
+DONE - make each cube appear and disappear at random times
 
 when cube clicked while active:
     -   Add point
@@ -19,5 +19,7 @@ when cube clicked while active:
 Maybes:
     sound effects
     +1 points pop ups.
+    
+    Make code less?
 
 
