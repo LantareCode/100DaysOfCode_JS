@@ -10,11 +10,10 @@
   ------------
       
 
-DONE - make each cube appear and disappear at random times
+BUGS:
+    Cubes keep flashing after stopped has been pressed.
 
-when cube clicked while active:
-    -   Add point
-    -   Hide cube and call appear function
+
 
 Maybes:
     sound effects
