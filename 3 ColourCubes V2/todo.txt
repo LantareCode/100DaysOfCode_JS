@@ -1,6 +1,4 @@
-TO DO:
-    CAN ONLY CLICK CUBE AFTER START PRESSED.
-
+-   Fix clearTimeouts, en remove startScreen div. (Cubes keep flashing behind).     
 
      -----------
    /           /|
@@ -13,18 +11,8 @@ TO DO:
   ------------
       
 
-BUGS:
-    Cubes keep flashing after stopped has been pressed.
-
-
-
 Maybes:
     sound effects
     +1 points pop ups.
     
     Make code less?
-
-
-work aroud:
-    create new groupe of div that display cubes before (containts all cubes)
-    on start, hide those, and bring forward the other cubes.

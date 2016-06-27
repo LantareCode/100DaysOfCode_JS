@@ -102,6 +102,9 @@ p{
     -webkit-text-fill-color: transparent;
 }
 
+#game{display:none;}
+#startScreen{}
+
 #cube1{}#cube2{}#cube3{}
 #cube4{}#cube5{}#cube6{}
 #cube7{}
@@ -146,100 +149,82 @@ p{
         background-color: #7F0F16;
     }
     /*Red*/
-        .cube:nth-child(2){
+        .cube:nth-child(1){
             background-color: #B20000;
                 animation: appear 3s linear infinite;
         }
-        .cube:nth-child(2):before{/*TOP*/
+        .cube:nth-child(1):before{/*TOP*/
             background-color: #CC0000;
         }
-        .cube:nth-child(2):after{/*SIDE*/
+        .cube:nth-child(1):after{/*SIDE*/
             background-color: #7F0000;
         }
     /*Orange*/
-        .cube:nth-child(3){
+        .cube:nth-child(2){
             background-color: #CC5100; 
                 animation: appear 4s;
         }
-        .cube:nth-child(3):before{/*TOP*/
+        .cube:nth-child(2):before{/*TOP*/
             background-color: #FF6600;
         }
-        .cube:nth-child(3):after{/*SIDE*/
+        .cube:nth-child(2):after{/*SIDE*/
             background-color: #993D00;
         }
     /*Yellow*/
-        .cube:nth-child(4){
+        .cube:nth-child(3){
             background-color: #CCBE00;
                 animation: appear 4s;
         }
-        .cube:nth-child(4):before{/*TOP*/
+        .cube:nth-child(3):before{/*TOP*/
             background-color: #FFEE00;
         }
-        .cube:nth-child(4):after{/*SIDE*/
+        .cube:nth-child(3):after{/*SIDE*/
             background-color: #998E00;
         }
     /*Green*/
-        .cube:nth-child(5){
+        .cube:nth-child(4){
             background-color: #00CC00;
                 animation: appear 4s;
         }
-        .cube:nth-child(5):before{/*TOP*/
+        .cube:nth-child(4):before{/*TOP*/
             background-color: #00FF00;
         }
-        .cube:nth-child(5):after{/*SIDE*/
+        .cube:nth-child(4):after{/*SIDE*/
             background-color: #009900;
         }
     /*Blue*/
-        .cube:nth-child(6){
+        .cube:nth-child(5){
             background-color: #007ACC;
                 animation: appear 4s;
         }
-        .cube:nth-child(6):before{/*TOP*/
+        .cube:nth-child(5):before{/*TOP*/
             background-color: #0099FF;
         }
-        .cube:nth-child(6):after{/*SIDE*/
+        .cube:nth-child(5):after{/*SIDE*/
             background-color: #004C7F;
         }
     /*Indigo*/
-        .cube:nth-child(7){
+        .cube:nth-child(6){
             background-color: #3D00E5;
                 animation: appear 4s;
         }
-        .cube:nth-child(7):before{/*TOP*/
+        .cube:nth-child(6):before{/*TOP*/
             background-color: #5619FF;
         }
-        .cube:nth-child(7):after{/*SIDE*/
+        .cube:nth-child(6):after{/*SIDE*/
             background-color: #280099;
         }
     /*Violet*/
-        .cube:nth-child(8){
+        .cube:nth-child(7){
             background-color: #7A00CC;
                 animation: appear 4s;
         }
-        .cube:nth-child(8):before{/*TOP*/
+        .cube:nth-child(7):before{/*TOP*/
             background-color: #9900FF;
         }
-        .cube:nth-child(8):after{/*SIDE*/
+        .cube:nth-child(7):after{/*SIDE*/
             background-color: #5B0099;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .disable-select {
   -webkit-user-select: none;  
