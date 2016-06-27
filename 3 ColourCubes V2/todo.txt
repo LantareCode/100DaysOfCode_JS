@@ -25,3 +25,6 @@ Maybes:
     Make code less?
 
 
+work aroud:
+    create new groupe of div that display cubes before (containts all cubes)
+    on start, hide those, and bring forward the other cubes.
