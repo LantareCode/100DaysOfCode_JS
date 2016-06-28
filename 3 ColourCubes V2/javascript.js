@@ -109,7 +109,6 @@ document.getElementById("cube7").onclick = function (){
 
 
 
-
 /********************/
 //#start Clicked
 //  calls hideAndReset()
