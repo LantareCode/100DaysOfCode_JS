@@ -1,5 +1,3 @@
--   Fix clearTimeouts, en remove startScreen div. (Cubes keep flashing behind).     
-
      -----------
    /           /|
   /           / |
@@ -13,6 +11,5 @@
 
 Maybes:
     sound effects
-    +1 points pop ups.
-    
+    +1 points pop ups.    
     Make code less?

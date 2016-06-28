@@ -1,7 +1,7 @@
 //cubeDisappear function:
 //  Makes cubes disappear at random times
 //  Calls cubeAppear function at a random time.
-function callAppear(funcName){    
+function callAppear(funcName){ 
     return (setTimeout(funcName, Math.random()*2000));
 }
 
@@ -38,7 +38,7 @@ var disappearTimer7;    function cubeDisappear_7(){
 //  Makes cubes appear at random times
 //  Calls disappearTimer function at a random time.
 function callDisappear(funcName){   
-    return (setTimeout(funcName, 5000));
+    return (setTimeout(funcName,((Math.random()*2000)+1000)));
 }
 var appearTimer1;   function cubeAppear_1(){
     document.getElementById("cube1").style.visibility = "visible";
@@ -70,7 +70,6 @@ var appearTimer7;   function cubeAppear_7(){
 }
 
 
-
 //Click on a cube:
 //  hide the cube
 //  add point to #score_points
@@ -79,34 +78,32 @@ function addPoints(){
     points += 1;
     document.getElementById("score_points").innerHTML = points;
 }
-//var cubeclick = false;
-
-document.getElementById("cube1").onclick = function (){        
-    cubeDisappear_1();  
+document.getElementById("cube1").onclick = function (){         
+    document.getElementById("cube1").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube2").onclick = function (){        
-    cubeDisappear_2();  
+    document.getElementById("cube2").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube3").onclick = function (){        
-    cubeDisappear_3();  
+    document.getElementById("cube3").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube4").onclick = function (){        
-    cubeDisappear_4();  
+    document.getElementById("cube4").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube5").onclick = function (){        
-    cubeDisappear_5();  
+    document.getElementById("cube5").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube6").onclick = function (){        
-    cubeDisappear_6();  
+    document.getElementById("cube6").style.visibility = "hidden";
     addPoints();    
 }
 document.getElementById("cube7").onclick = function (){        
-    cubeDisappear_7();  
+    document.getElementById("cube7").style.visibility = "hidden";
     addPoints();    
 }
 
@@ -121,7 +118,7 @@ var startTimer;
 document.getElementById("start").onclick = function(){
     hideAndReset();    
     
-    var startTimeout = Math.random()*2000;        
+    var startTimeout = Math.random()*1000;        
     
     startTimer = setTimeout(cubeAppear_1, startTimeout);
     startTimer = setTimeout(cubeAppear_2, startTimeout);
@@ -158,10 +155,8 @@ document.getElementById("stop").onclick = function(){
     document.getElementById("startScreen").style.display = "block";
     
     points = 0;
-    startTimeout = 2000;
-    
-    clearTimeout(startTimer);   
-    
+    //startTimeout = 2000;    
+    clearTimeout(startTimer);       
     clearTimeout(appearTimer1); clearTimeout(disappearTimer1);
     clearTimeout(appearTimer2); clearTimeout(disappearTimer2);
     clearTimeout(appearTimer3); clearTimeout(disappearTimer3);
