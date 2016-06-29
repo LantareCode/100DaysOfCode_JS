@@ -1,0 +1,23 @@
+body{background-color:#1D1F20;}
+
+#box{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  left: 50%;
+    
+  background: crimson;
+  cursor: pointer;  
+    
+  transition: transform 500ms;
+}
+
+#box.left {
+  transform: translateX(-100px);
+}
+#box.right {
+  transform: translateX(100px);
+}
