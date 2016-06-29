@@ -12,6 +12,7 @@ Just did a quick syntax overview by using P1kachu's ProgrammingLearning Excercis
 Created the basic layout for ColourCubes and added a simple animation
 
 **Folder Name:** 2 ColourCubes V1
+
 **Codepen link:** [Colour Cubes V1](http://codepen.io/Lantare/full/gMLagz/)
 
 ### Day 3: June 22, 2016
@@ -55,13 +56,12 @@ Did a temporary work around to the bug in ColourCubes but it's still there.
 Finished ColourCubes, still room for many many improvements. But happy with it for now.
 
 **Folder Name:** 3 ColourCubes V2
+
 **Codepen link:** [Colour Cubes V2](http://codepen.io/Lantare/full/ezvyvJ/)
 
 ### Day 10: June 29, 2016
 
 Tried using JS addEventListener instead of onclick.
 *Self Note: Use this folder for trying silly random things.*
-
-And did .... on freecodecamp.
 
 **Folder Name:** 4 RandomThings
