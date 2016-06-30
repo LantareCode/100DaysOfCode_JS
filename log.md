@@ -65,3 +65,7 @@ Tried using JS addEventListener instead of onclick.
 *Self Note: Use this folder for trying silly random things.*
 
 **Folder Name:** 4 RandomThings
+
+### Day 11: June 30, 2016
+
+Did some of the Basic JavaScript challenges on [freeCodeCamp](https://www.freecodecamp.com)
