@@ -69,3 +69,7 @@ Tried using JS addEventListener instead of onclick.
 ### Day 11: June 30, 2016
 
 Did some of the Basic JavaScript challenges on [freeCodeCamp](https://www.freecodecamp.com)
+
+### Day 12: July 1, 2016
+
+Started with Basic Algorithm Scripting [freeCodeCamp](https://www.freecodecamp.com)
