@@ -72,4 +72,8 @@ Did some of the Basic JavaScript challenges on [freeCodeCamp](https://www.freeco
 
 ### Day 12: July 1, 2016
 
-Started with Basic Algorithm Scripting [freeCodeCamp](https://www.freecodecamp.com)
+Started with Basic Algorithm Scripting on[freeCodeCamp](https://www.freecodecamp.com)
+
+### Day 13: July 2, 2016
+
+Did some more Basic Algorithm Scripting on [freeCodeCamp](https://www.freecodecamp.com)
