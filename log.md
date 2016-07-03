@@ -77,3 +77,7 @@ Started with Basic Algorithm Scripting on[freeCodeCamp](https://www.freecodecamp
 ### Day 13: July 2, 2016
 
 Did some more Basic Algorithm Scripting on [freeCodeCamp](https://www.freecodecamp.com)
+
+### Day 14: July 3, 2016
+
+Did the JSON APIs and Ajax section on [freeCodeCamp](https://www.freecodecamp.com)
