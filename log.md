@@ -81,3 +81,9 @@ Did some more Basic Algorithm Scripting on [freeCodeCamp](https://www.freecodeca
 ### Day 14: July 3, 2016
 
 Did the JSON APIs and Ajax section on [freeCodeCamp](https://www.freecodecamp.com)
+
+### Day 15: July 4, 2016
+
+Prepped to start with freeCodeCamp's Show the Local Weather project. [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
