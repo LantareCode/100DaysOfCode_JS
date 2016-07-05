@@ -87,3 +87,8 @@ Did the JSON APIs and Ajax section on [freeCodeCamp](https://www.freecodecamp.co
 Prepped to start with freeCodeCamp's Show the Local Weather project. [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
 
 **Folder Name:** 5 Show Local Weather
+
+### Day 16: July 5, 2016
+
+
+**Folder Name:** 5 Show Local Weather
