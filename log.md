@@ -90,5 +90,6 @@ Prepped to start with freeCodeCamp's Show the Local Weather project. [freeCodeCa
 
 ### Day 16: July 5, 2016
 
+Started coding on the show the Local Weather Project. [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
 
 **Folder Name:** 5 Show Local Weather
