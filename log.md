@@ -93,3 +93,11 @@ Prepped to start with freeCodeCamp's Show the Local Weather project. [freeCodeCa
 Started coding on the show the Local Weather Project. [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
 
 **Folder Name:** 5 Show Local Weather
+
+### Day 17: July 6, 2016
+
+Added most of the basic functions, displaying town, country, temp, icon etc. 
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather

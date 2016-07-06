@@ -9,6 +9,11 @@ Normally you want to avoid exposing API keys on CodePen, but we haven't been abl
 https://openweathermap.org/current#geo
 
 TO DO:
-> I can see the weather in my current location.
-> I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+> I can see the weather in my current location. - DONE
+> I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather. - DONE
 > I can push a button to toggle between Fahrenheit and Celsius
+
+-----------------------------
+-   Make background change by wetaher
+-   Custon icons.
+-   Round temp values.
