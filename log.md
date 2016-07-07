@@ -101,3 +101,22 @@ Added most of the basic functions, displaying town, country, temp, icon etc.
 Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
 
 **Folder Name:** 5 Show Local Weather
+
+### Day 18: July 7, 2016
+
+Added the ability to convert between F and C
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
+
+
+
+
+
+
+
+
+
+
+
