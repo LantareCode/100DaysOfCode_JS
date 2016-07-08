@@ -110,6 +110,13 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 **Folder Name:** 5 Show Local Weather
 
+### Day 19: July 8, 2016
+
+Added the basic style and layout properties.
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
 
 
 

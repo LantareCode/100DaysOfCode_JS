@@ -5,6 +5,8 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">        
+        
         <title>Show Local Weather</title>                        
         <meta name="description" content="Show Local Weather">
         <meta name="author" content="LantareCode">     
@@ -13,11 +15,15 @@
     </head> 
     <body> 
         <div class="wrap">    
-            <p>Town, Country: <span id="city"></span>, <span id="country"></span></p>
-            <p>Temp: <span id="temperature"></span> °<span id="unit">C</span></p>
-            <p>Sky: <span id="sky"></span></p>
-            <img id="icon" src=""/>
-            <p>Powered By <a href="http://openweathermap.org/current">OpenWeatherMap</a>. Built By <a href="https://github.com/LantareCode">LantareCode</a></p>            
+            <p>
+                <span id="city"></span>, <span id="country"></span><br/>
+                <span id="temperature"></span> °<span id="unit">C</span><br/>
+                <span id="sky"></span><br/>
+                <img id="icon" src=""/>
+            </p>                       
+        </div>
+        <div class="bottom">
+            <p class="poweredBy">Powered By <a href="http://openweathermap.org/current" target="_blank">OpenWeatherMap</a>. Built By <a href="https://github.com/LantareCode" target="_blank">LantareCode</a></p> 
         </div>
                 
         <script type="text/javascript" src="javascript.js"></script>

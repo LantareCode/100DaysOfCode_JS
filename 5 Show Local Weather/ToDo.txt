@@ -17,3 +17,5 @@ TO DO:
 -   Style + CSS
 -   Make background change by wetaher
 -   Custon icons.
+-   Maak transparent: #091D27
+http://openweathermap.org/weather-conditions Icons volgens dit

@@ -1,4 +1,4 @@
-html, body,{
+html, body{
     height: 100%;   
     position: relative;  
     padding: 0;
@@ -6,16 +6,50 @@ html, body,{
 }
 
 body{
-   /* background-color: #191134;    */
+    background-color: #091D27;    
+    color: #FFFFFF;
 }
 
+p{
+    font-size: 300%;
+    font-family: 'Advent Pro', sans-serif;  
+    padding:0;
+    margin:0;
+}
+a{color: #FFFFFF;}
 
-/*.wrap{    
+img{padding:0;margin:0;}
+
+
+
+#unit{
+    color: #091D27;
+    cursor: pointer;
+}
+
+.poweredBy{font-size: 100% !important;}
+.bottom{
     position: absolute;
     top:50%;
     left:50%;
-	margin: -60px 0 0 -575px;    
-    width: 1150px;
-    height: 180px;
-}*/
+	margin: 130px 0 0 -250px;    
+    width: 500px;
+    text-align: center;
+}
+
+.wrap{    
+    position: absolute;    
+    display: table;
+    left: 0%;  
+    
+    top: 50%;
+    margin: -100px 0 0 0;  
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .2);
+}
 
