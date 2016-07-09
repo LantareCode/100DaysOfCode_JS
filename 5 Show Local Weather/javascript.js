@@ -21,7 +21,9 @@ $(document).ready(function (){//make sure every HTML is loaded
                 url : apiUrl,
                 method : 'GET',//Get is used to get data from server, POST is used to modify data on server
                 success : function (geoWeather) {  
-                    var icon = 'http://openweathermap.org/img/w/' + geoWeather.weather[0].icon + '.png';//Gets our icon call.
+                    /*var icon = 'http://openweathermap.org/img/w/' + geoWeather.weather[0].icon + '.png';//Gets our icon call.*/
+                    var icon = 'icons/' + geoWeather.weather[0].icon + '.png';//Gets our icon call.
+                                        
                     celsius = geoWeather.main.temp;
                     
                     $('#icon').attr('src',icon);                    

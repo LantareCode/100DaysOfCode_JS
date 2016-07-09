@@ -118,6 +118,14 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 **Folder Name:** 5 Show Local Weather
 
+### Day 20: July 9, 2016
+
+Updated icons to custom icons
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
+
 
 
 
