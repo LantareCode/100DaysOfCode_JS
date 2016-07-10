@@ -126,6 +126,14 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 **Folder Name:** 5 Show Local Weather
 
+### Day 21: July 10, 2016
+
+Finished the weather project, although unable to make it work in codepen
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
+
 
 
 
