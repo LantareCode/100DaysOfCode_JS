@@ -1,3 +1,5 @@
+/*Random background images from: https://unsplash.com/*/
+
 html, body{
     height: 100%;   
     position: relative;  
@@ -5,34 +7,46 @@ html, body{
     margin: 0;
 }
 
-body{
-    background-color: #091D27;    
+body{      
     color: #FFFFFF;
+    
+    /*Responsive Background Image*/
+    background-image: url(https://source.unsplash.com/random);
+    background-position: center center;/*center center at all times*/
+    background-repeat: no-repeat; /*doesn't tile*/
+    background-attachment: fixed; /*image is fixed in the view port so that it doesn't move*/
+    background-size: cover; /*makes image rescale*/
+    
+    background-color: #091D27;
 }
 
 p{
     font-size: 300%;
-    font-family: 'Advent Pro', sans-serif;  
+    /*font-family: 'Advent Pro', sans-serif; */
+    font-family: 'Secular One', sans-serif;
     padding:0;
     margin:0;
 }
 a{color: #FFFFFF;}
 
-img{padding:0;margin:0;}
+img{
+    padding: 10px 0;
+    margin:0;
+}
 
 
 
 #unit{
-    color: #091D27;
+    /*color: #091D27;*/
     cursor: pointer;
 }
 
-.poweredBy{font-size: 100% !important;}
+.poweredBy{font-size: 80% !important;}
 .bottom{
     position: absolute;
     top:50%;
     left:50%;
-	margin: 170px 0 0 -250px;    
+	margin: 220px 0 0 -250px;    
     width: 500px;
     text-align: center;
 }
@@ -49,7 +63,9 @@ img{padding:0;margin:0;}
     
     text-align: center;
     
-    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
-    background: rgba(255, 255, 255, .2);
+    /*background: rgb(255, 255, 255);  Fall-back for browsers that don't support rgba 
+    background: rgba(255, 255, 255, .8);*/
+    background: rgb(9,29,39);  /*Fall-back for browsers that don't support rgba */
+    background: rgba(9,29,39, .6);
 }
 

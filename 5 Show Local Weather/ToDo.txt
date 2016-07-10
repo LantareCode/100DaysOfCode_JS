@@ -14,8 +14,8 @@ TO DO:
 > I can push a button to toggle between Fahrenheit and Celsius - DONE
 
 -----------------------------
--   Style + CSS
--   Make background change by wetaher
--   Custon icons.
--   Maak transparent: #091D27
+-   Style + CSS DONE
+-   Make background change by wetaher DONE
+-   Custon icons. DONE
+-   Maak transparent: #091D27 DONE
 http://openweathermap.org/weather-conditions Icons volgens dit
