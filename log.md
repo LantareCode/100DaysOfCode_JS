@@ -134,6 +134,16 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 **Folder Name:** 5 Show Local Weather
 
+### Day 22: July 11, 2016
+
+Fixed the issue the show local weather app had with HTTPS
+
+Codepen link - [Show Local Weather] (http://codepen.io/LantareCode/full/LkzrwG/)
+
+Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
+
+**Folder Name:** 5 Show Local Weather
+
 
 
 

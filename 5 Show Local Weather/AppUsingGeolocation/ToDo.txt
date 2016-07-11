@@ -1,0 +1,21 @@
+FreeCodeCamp - Show the Local Weather: 
+https://www.freecodecamp.com/challenges/show-the-local-weather
+
+
+Rule #2: Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.    
+
+We recommend using the Open Weather API. This will require creating a free API key.
+Normally you want to avoid exposing API keys on CodePen, but we haven't been able to find a keyless API for weather.
+https://openweathermap.org/current#geo
+
+TO DO:
+> I can see the weather in my current location. - DONE
+> I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather. - DONE
+> I can push a button to toggle between Fahrenheit and Celsius - DONE
+
+-----------------------------
+-   Style + CSS DONE
+-   Make background change by wetaher DONE
+-   Custon icons. DONE
+-   Maak transparent: #091D27 DONE
+http://openweathermap.org/weather-conditions Icons volgens dit
