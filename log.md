@@ -146,6 +146,7 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 ### Day 23: July 12, 2016
 
+Did some JavaScript Challanges on codewars.com and programming in Prolog.
 
 [codewars] (https://www.codewars.com)
 
