@@ -144,6 +144,11 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 **Folder Name:** 5 Show Local Weather
 
+### Day 23: July 12, 2016
+
+
+[codewars] (https://www.codewars.com)
+
 
 
 
