@@ -151,6 +151,17 @@ Did some JavaScript Challanges on codewars.com and programming in Prolog.
 [codewars] (https://www.codewars.com)
 
 
+With all the hype after Pokemon Go came out, decided to make a silly little CSS Pokemon themed pen
+
+[Codepen Link:](http://codepen.io/LantareCode/full/vKWQAQ/)
+
+**Folder Name:** 6 Pokeball CSS
+
+Also did some JavaScript Challanges on codewars.com
+
+[codewars] (https://www.codewars.com)
+
+
 
 
 

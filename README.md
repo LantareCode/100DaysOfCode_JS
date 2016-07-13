@@ -8,7 +8,7 @@ Starting Monday(20th June) I will try to code 30-60min a day, and at the end of 
 
 Full Progress Log: [log.md](log.md)
 
-##Projects Completed:
+##Bigger Projects Completed:
 ###1. Colour Cubes V1 - Completed Day 2: June 21, 2016
 A simple animation which also lead to the basic layout used in the next project.
 
