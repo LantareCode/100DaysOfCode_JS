@@ -150,6 +150,7 @@ Did some JavaScript Challanges on codewars.com and programming in Prolog.
 
 [codewars] (https://www.codewars.com)
 
+### Day 24: July 13, 2016
 
 With all the hype after Pokemon Go came out, decided to make a silly little CSS Pokemon themed pen
 
