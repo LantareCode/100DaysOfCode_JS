@@ -162,6 +162,13 @@ Also did some JavaScript Challanges on codewars.com
 
 [codewars] (https://www.codewars.com)
 
+### Day 25: July 14, 2016
+
+Did some more Basic Algorithm Scripting on [freeCodeCamp](https://www.freecodecamp.com).
+Also did some JavaScript Challanges on [CodeWars](https://www.codewars.com).
+
+
+
 
 
 
