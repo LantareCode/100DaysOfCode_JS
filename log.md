@@ -146,7 +146,7 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 ### Day 23: July 12, 2016
 
-Did some JavaScript Challanges on codewars.com and programming in Prolog.
+Did some JavaScript Challenges on codewars.com and programming in Prolog.
 
 [codewars] (https://www.codewars.com)
 
@@ -158,20 +158,22 @@ With all the hype after Pokemon Go came out, decided to make a silly little CSS 
 
 **Folder Name:** 6 Pokeball CSS
 
-Also did some JavaScript Challanges on codewars.com
+Also did some JavaScript Challenges on codewars.com
 
 [codewars] (https://www.codewars.com)
 
 ### Day 25: July 14, 2016
 
 Did some more Basic Algorithm Scripting on [freeCodeCamp](https://www.freecodecamp.com).
-Also did some JavaScript Challanges on [CodeWars](https://www.codewars.com).
+Also did some JavaScript Challenges  on [CodeWars](https://www.codewars.com).
 
-### Day 26: July 16, 2016
+### Day 26: July 15, 2016
 
 Finished the Basic Algorithm Scripting section on [freeCodeCamp](https://www.freecodecamp.com).
 
+### Day 27: July 16, 2016
 
+Did some JavaScript Challenges  on [CodeWars](https://www.codewars.com).
 
 
 
