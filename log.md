@@ -175,6 +175,10 @@ Finished the Basic Algorithm Scripting section on [freeCodeCamp](https://www.fre
 
 Did some JavaScript Challenges  on [CodeWars](https://www.codewars.com).
 
+### Day 28: July 17, 2016
+
+Started with the Object Oriented and Functional Programming section on [freeCodeCamp](https://www.freecodecamp.com).
+
 
 
 
