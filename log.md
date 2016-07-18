@@ -179,6 +179,14 @@ Did some JavaScript Challenges  on [CodeWars](https://www.codewars.com).
 
 Started with the Object Oriented and Functional Programming section on [freeCodeCamp](https://www.freecodecamp.com).
 
+### Day 29: July 18, 2016
+
+Finished Object Oriented and Functional Programming section on [freeCodeCamp](https://www.freecodecamp.com).
+
+Started with freeCodeCamp's Random Quote Machine project. [freeCodeCamp - SRandom Quote Machine Weather](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
+
+**Folder Name:** 7 Random Quotes
+
 
 
 

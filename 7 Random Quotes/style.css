@@ -1,0 +1,87 @@
+/*
+font-family: 'Chathura', sans-serif;  //Author
+font-family: 'Space Mono', monospace; // Quote
+
+*/
+
+*{margin:0;}
+
+html, body{
+    height: 100%;   
+    position: relative;  
+    padding: 0;    
+}
+
+body{      
+    color: black;    
+    background-color: #091D27;    
+}
+
+p{    
+    font-family: 'Space Mono', monospace;
+    padding:0;
+    margin:0;
+}
+a{}
+
+img{
+    padding: 10px 0;
+    margin:0;
+}
+
+
+
+#unit{
+    /*color: #091D27;*/
+    cursor: pointer;
+}
+
+
+
+
+/****/
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -20px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 20px; 
+}
+.site-footer {
+  text-align: center;
+}
+/***/
+
+
+
+.poweredBy{font-size: 80% !important;}
+.bottom{
+    position: absolute;
+    top:50%;
+    left:50%;
+	margin: 200px 0 0 -250px;
+    width: 500px;
+    text-align: center;      
+}
+
+.wrap{        
+    position: absolute;    
+    display: table;
+    left: 50%;  
+    top: 40%;
+    margin: auto 0 0 -250px;      
+    width: 500px;    
+        
+    text-align: justify;    
+    
+    padding: 10px;
+    background-color: #FFF;
+    
+    border-radius: 5px;
+}
+

@@ -1,0 +1,16 @@
+FreeCodeCamp - Randome Quote Machine
+https://www.freecodecamp.com/challenges/build-a-random-quote-machine
+
+TO DO:
+-   User Story: I can click a button to show me a new random quote. DONE
+-   User Story: I can press a button to tweet out a quote. DONE
+-----------------------------
+-   Style + CSS :
+    Aurthor own font
+    Buttons
+    Background
+    Footer colour
+
+
+
+http://quotes.stormconsultancy.co.uk/api - RANDOM
