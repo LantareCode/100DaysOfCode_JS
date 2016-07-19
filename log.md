@@ -138,7 +138,7 @@ Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/c
 
 Fixed the issue the show local weather app had with HTTPS
 
-Codepen link - [Show Local Weather] (http://codepen.io/LantareCode/full/LkzrwG/)
+Codepen link - [Show Local Weather](http://codepen.io/LantareCode/full/LkzrwG/)
 
 Based on: [freeCodeCamp - Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)
 
@@ -183,7 +183,15 @@ Started with the Object Oriented and Functional Programming section on [freeCode
 
 Finished Object Oriented and Functional Programming section on [freeCodeCamp](https://www.freecodecamp.com).
 
-Started with freeCodeCamp's Random Quote Machine project. [freeCodeCamp - SRandom Quote Machine Weather](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
+Started with freeCodeCamp's Random Quote Machine project. [freeCodeCamp - Random Quote Machine](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
+
+**Folder Name:** 7 Random Quotes
+
+### Day 30: July 19, 2016
+
+Finished freeCodeCamp's Random Quote Machine project. [freeCodeCamp - Random Quote Machine](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
+
+**Codepen link:** [Random Programming Quotes](http://codepen.io/LantareCode/full/jAkxpy/)
 
 **Folder Name:** 7 Random Quotes
 
