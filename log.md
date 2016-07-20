@@ -195,7 +195,9 @@ Finished freeCodeCamp's Random Quote Machine project. [freeCodeCamp - Random Quo
 
 **Folder Name:** 7 Random Quotes
 
+### Day 31: July 20, 2016
 
+Did some Intermediate Algorithm Scripting on [freeCodeCamp](https://www.freecodecamp.com).
 
 
 
