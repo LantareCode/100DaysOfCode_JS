@@ -202,6 +202,7 @@ Did some Intermediate Algorithm Scripting on [freeCodeCamp](https://www.freecode
 ### Day 32: July 21, 2016
 
 Did some JavaScript challenges on [CodeWars](https://www.codewars.com).
+
 Started prepping the Twitch Streameers Status Viewer for the Use the Twitch.tv JSONP API project on [freeCodeCamp](https://www.freecodecamp.com).
 
 
