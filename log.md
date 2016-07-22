@@ -203,10 +203,13 @@ Did some Intermediate Algorithm Scripting on [freeCodeCamp](https://www.freecode
 
 Did some JavaScript challenges on [CodeWars](https://www.codewars.com).
 
-Started prepping the Twitch Streameers Status Viewer for the Use the Twitch.tv JSONP API project on [freeCodeCamp](https://www.freecodecamp.com).
+Started prepping the Twitch Streamers Status Viewer for the Use the Twitch.tv JSONP API project on [freeCodeCamp](https://www.freecodecamp.com).
 
+### Day 33: July 22, 2016
 
+Worked on the Twitch Streamers Status Viewer for the Use the Twitch.tv JSONP API project on [freeCodeCamp](https://www.freecodecamp.com).
 
+**Folder Name:** 8 Twitch Streamers Status Viewer
 
 
 

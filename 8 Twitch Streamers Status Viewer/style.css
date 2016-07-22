@@ -1,0 +1,82 @@
+/*Random background images from: https://unsplash.com/*/
+*{margin:0;}
+
+html, body{
+    height: 100%;   
+    position: relative;  
+    padding: 0;    
+}
+
+body{      
+    color: #FFFFFF;
+    background-color: #091D27;
+    
+    /************ Responsive Background Image ************/
+    /*background-image: url(https://source.unsplash.com/random);*/
+    /*background-position: center center;/*center center at all times*/
+    /*background-repeat: no-repeat; /*doesn't tile*/
+    /*background-attachment: fixed; /*image is fixed in the view port so that it doesn't move*/
+    /*background-size: cover; /*makes image rescale*/
+}
+
+p{
+    font-size: 300%;
+    /*font-family: 'Advent Pro', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    padding:0;
+    margin:0;
+}
+a{color: #FFFFFF;}
+
+img{
+    padding: 10px 0;
+    margin:0;
+}
+
+
+
+#unit{
+    /*color: #091D27;*/
+    cursor: pointer;
+}
+
+
+
+
+
+
+.wrap{        
+    position: absolute;    
+    display: table;
+    left: 0%;  
+    
+    top: 50%;
+    margin: -100px 0 0 0;  
+    
+    width: 100%;    
+        
+    text-align: center;        
+    
+    background: rgb(9,29,39);  /*Fall-back for browsers that don't support rgba */
+    background: rgba(9,29,39, .6);
+}
+/**********************   Sticky Footer   **********************/
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -20px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 20px; 
+}
+.site-footer {
+  text-align: center;
+}
+
+.poweredBy{font-size: 80% !important;}
+
+
