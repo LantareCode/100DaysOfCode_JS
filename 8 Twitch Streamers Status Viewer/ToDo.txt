@@ -1,7 +1,8 @@
 FreeCodeCamp - Use the Twitchtv JSON API: 
 https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api
 
-Example: https://codepen.io/FreeCodeCamp/full/Myvqmo/
+Example: 
+https://codepen.io/FreeCodeCamp/full/Myvqmo/
 
 Hint: 
 > See an example call to Twitch.tv's JSONP API at

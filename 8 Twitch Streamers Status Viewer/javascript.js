@@ -1,7 +1,7 @@
 $(document).ready(function (){        
     var channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
     
-    var channel = 'sheevergaming';
+    var channel = 'OgamingSC2';
 
     const apiUrl = 'https://api.twitch.tv/kraken/streams/'+channel+'?callback=?';   
 
@@ -19,7 +19,8 @@ $(document).ready(function (){
             else if(channel_info.stream === undefined)                
                 $('#status').html('account closed');           
             else
-                $('#status').html(channel_info.stream.game);  
+                $('#status').html(channel_info._links.self); 
+                //$('#status').html(channel_info.stream.game); 
             
             
             console.log(channel_info);
