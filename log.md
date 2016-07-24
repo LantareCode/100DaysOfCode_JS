@@ -211,9 +211,14 @@ Worked on the Twitch Streamers Status Viewer for the Use the Twitch.tv JSONP API
 
 **Folder Name:** 8 Twitch Streamers Status Viewer
 
-
 ### Day 34: July 23, 2016
 
 Worked on the Twitch Streamers Status Viewer for the Use the Twitch.tv JSONP API project on [freeCodeCamp](https://www.freecodecamp.com).
+
+**Folder Name:** 8 Twitch Streamers Status Viewer
+
+### Day 35: July 25, 2016
+
+Some Python scripting and being stuck on the Twitch Streamers Status Viewer project
 
 **Folder Name:** 8 Twitch Streamers Status Viewer
