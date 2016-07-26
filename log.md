@@ -228,3 +228,7 @@ Some Python scripting and being stuck on the Twitch Streamers Status Viewer proj
 Got passed the API hiccup I had with the Twitch Streamers Status Viewer project
 
 **Folder Name:** 8 Twitch Streamers Status Viewer
+
+### Day 37: July 26, 2016
+
+Spent most of the coding hour today on [hackerrank](hackerrank.com)
