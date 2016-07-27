@@ -20,7 +20,7 @@ body{
 }
 
 p{
-    font-size: 300%;
+    /*font-size: 300%;*/
     /*font-family: 'Advent Pro', sans-serif; */
     font-family: 'Secular One', sans-serif;
     padding:0;
@@ -29,6 +29,7 @@ p{
 a{color: #FFFFFF;}
 
 img{
+    border-radius: 30px;
     padding: 10px 0;
     margin:0;
 }

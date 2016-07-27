@@ -232,3 +232,9 @@ Got passed the API hiccup I had with the Twitch Streamers Status Viewer project
 ### Day 37: July 26, 2016
 
 Spent most of the coding hour today on [hackerrank](hackerrank.com)
+
+### Day 38: July 27, 2016
+
+Made good progress on the Twitch Streamer Status Viewer
+
+**Folder Name:** 8 Twitch Streamers Status Viewer
