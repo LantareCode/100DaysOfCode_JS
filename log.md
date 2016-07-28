@@ -238,3 +238,11 @@ Spent most of the coding hour today on [hackerrank](hackerrank.com)
 Made good progress on the Twitch Streamer Status Viewer
 
 **Folder Name:** 8 Twitch Streamers Status Viewer
+
+### Day 39: July 28, 2016
+
+Finished freeCodeCamp's Twitch Streamer Status Viewer project. [freeCodeCamp - Use the Twitchtv JSON API](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api)
+
+**Codepen link:** [Twitch Status Viewer](http://codepen.io/LantareCode/full/xOzBBx/)
+
+**Folder Name:** 8 Twitch Streamers Status Viewer

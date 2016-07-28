@@ -37,8 +37,17 @@ The Show Local Weather porject is based on [freeCodeCamp's](https://www.freecode
 
 
 ###4. Random Programming Quotes  - Completed Day 30: July 19, 2016
-The Random Programming Quotes is based on [freeCodeCamp's](https://www.freecodecamp.com/challenges/build-a-random-quote-machine) Random Quote Machine Project in the Intermediate Front End Development Projects
+The Random Programming Quotes project is based on [freeCodeCamp's](https://www.freecodecamp.com/challenges/build-a-random-quote-machine) Random Quote Machine Project in the Intermediate Front End Development Projects
 
 **Codepen link:** [Random Programming Quotes](http://codepen.io/LantareCode/full/jAkxpy/)
 
 **Screenshot:** ![https://i.gyazo.com/c7695018284e726b71794ea0247ae474.png](https://i.gyazo.com/c7695018284e726b71794ea0247ae474.png)
+
+
+
+###5. Twitch Status Viewer  - Completed Day 39: July 28, 2016
+The Twitch Status Viewer project is based on [freeCodeCamp's](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api) Use the Twitchtv JSON API Project in the Intermediate Front End Development Projects
+
+**Codepen link:** [Twitch Status Viewer](http://codepen.io/LantareCode/full/xOzBBx/)
+
+**Screenshot:** ![https://i.gyazo.com/eb04bbcdc57a4e36ddf22bbd45410ae3.jpg](https://i.gyazo.com/eb04bbcdc57a4e36ddf22bbd45410ae3.jpg)
