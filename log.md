@@ -246,3 +246,9 @@ Finished freeCodeCamp's Twitch Streamer Status Viewer project. [freeCodeCamp - U
 **Codepen link:** [Twitch Status Viewer](http://codepen.io/LantareCode/full/xOzBBx/)
 
 **Folder Name:** 8 Twitch Streamers Status Viewer
+
+### Day 40: July 29, 2016
+
+Started working on a new project to try using HTML5 Canvas with JavaScript for the first time.
+
+**Folder Name:** 9 Bouncing Things

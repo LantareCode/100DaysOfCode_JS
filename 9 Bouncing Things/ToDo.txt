@@ -1,0 +1,8 @@
+To Do:
+
+- Make balls bounce (Basic)
+
+> Press a key to add new Randome Shapes
+> Random colours/sizes per shape
+> Random speeds
+> Random spawn points.
