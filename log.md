@@ -252,3 +252,9 @@ Finished freeCodeCamp's Twitch Streamer Status Viewer project. [freeCodeCamp - U
 Started working on a new project to try using HTML5 Canvas with JavaScript for the first time.
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 41: July 30, 2016
+
+Started working on the basic for the bouncing things project.
+
+**Folder Name:** 9 Bouncing Things
