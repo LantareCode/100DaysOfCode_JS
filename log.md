@@ -258,3 +258,9 @@ Started working on a new project to try using HTML5 Canvas with JavaScript for t
 Started working on the basic for the bouncing things project.
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 42: Aug 1, 2016
+
+Got the bouncing function working properly
+
+**Folder Name:** 9 Bouncing Things
