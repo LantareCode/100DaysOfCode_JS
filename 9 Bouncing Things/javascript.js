@@ -1,12 +1,17 @@
 var canvas, context;
+var circleArr = [];
 
-var temp = new circle();//temp
+for(var i = 0; i < 5; i++){
+    var temp = new circle();//temp
+    circleArr.push(temp);
+}
 
-function circle(){//class
-    //Math.floor(Math.random() * 6) + 1 //1 - 6
-    this.x = 110; 
-    this.y = 200;     
+function circle(){//create a circle class    
+    this.x = Math.floor(Math.random()*1100)+1; 
+    this.y = Math.floor(Math.random()*700)+1;
     this.radius = 10;
+    
+    //TO DO ******** randomise the + and - here ********
     this.speedX = 10; //speed left right
     this.speedY = 15; //speed up down
     
@@ -18,7 +23,7 @@ function circle(){//class
         this.x += this.speedX;
         this.y += this.speedY; 
         
-        //circle direction (bounce)
+        //circle direction(bounce)
         if(this.x > canvas.width-this.radius)//right
             this.speedX *= -1;
         if (this.x < this.radius)//left
@@ -50,13 +55,15 @@ function updateAll(){
 
 function draw(){    
     //Clear canvas
-    drawBlock(0,0, canvas.width,canvas.height, 'white'); 
+    drawBlock(0,0, canvas.width,canvas.height, 'white');     
     
-    temp.draw();
-    
+    for(var i = 0; i < circleArr.length; i++)
+        circleArr[i].draw();    
 }
+
 function move(){
-    temp.move();   
+    for(var i = 0; i < circleArr.length; i++)
+        circleArr[i].move();    
 }
 
 function drawBlock(x,y, width,height, color){ 
