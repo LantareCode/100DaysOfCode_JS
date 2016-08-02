@@ -1,10 +1,37 @@
 var canvas, context;
 
-var circleX = 110; 
-var circleY = 200; 
-var circleRadius = 25;
-var circleSpeedX = 10; //speed left right
-var circleSpeedY = 15; //speed up down
+var temp = new circle();//temp
+
+function circle(){//class
+    //Math.floor(Math.random() * 6) + 1 //1 - 6
+    this.x = 110; 
+    this.y = 200;     
+    this.radius = 10;
+    this.speedX = 10; //speed left right
+    this.speedY = 15; //speed up down
+    
+    this.draw = function(){
+        drawCircle(this.x,this.y, this.radius, 'red');
+    }
+    
+    this.move = function(){
+        this.x += this.speedX;
+        this.y += this.speedY; 
+        
+        //circle direction (bounce)
+        if(this.x > canvas.width-this.radius)//right
+            this.speedX *= -1;
+        if (this.x < this.radius)//left
+            this.speedX *= -1;
+        if(this.y > canvas.height-this.radius)//bottom
+            this.speedY *= -1;
+        if (this.y < this.radius)//top
+        this.speedY *= -1;
+    }
+    
+}
+
+
 
 window.onload = function() {
     canvas = document.getElementById('canvas');
@@ -23,33 +50,21 @@ function updateAll(){
 
 function draw(){    
     //Clear canvas
-    block(0,0, canvas.width,canvas.height, 'white');        
-
-    circle(circleX,circleY, circleRadius, 'red');
-}
-
-
-function move(){
-    circleX += circleSpeedX;
-    circleY += circleSpeedY; 
+    drawBlock(0,0, canvas.width,canvas.height, 'white'); 
     
-    //circle direction (bounce)
-    if(circleX > canvas.width-circleRadius)//right
-        circleSpeedX *= -1;
-    if (circleX < circleRadius)//left
-        circleSpeedX *= -1;
-    if(circleY > canvas.height-circleRadius)//bottom
-        circleSpeedY *= -1;
-    if (circleY < circleRadius)//top
-        circleSpeedY *= -1;
+    temp.draw();
+    
+}
+function move(){
+    temp.move();   
 }
 
-function block(x,y, width,height, color){ 
+function drawBlock(x,y, width,height, color){ 
     canvasContext.fillStyle = color;
     canvasContext.fillRect(x,y, width,height);   
 }
 
-function circle(x,y, radius, color){
+function drawCircle(x,y, radius, color){
     //canvasContext.arc(centerX,centerY, radius, draw_from, draw_to, true); 
     canvasContext.fillStyle = color;
     canvasContext.beginPath();    

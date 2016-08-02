@@ -264,3 +264,9 @@ Started working on the basic for the bouncing things project.
 Got the bouncing function working properly
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 43: Aug 2, 2016
+
+Started adding classes and randomness to the variable values.
+
+**Folder Name:** 9 Bouncing Things
