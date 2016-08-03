@@ -1,24 +1,44 @@
 var canvas, context;
 var circleArr = [];
 
-for(var i = 0; i < 5; i++){
+
+for(var i = 0; i < 100; i++){
     var temp = new circle();//temp
-    circleArr.push(temp);
+    circleArr.push(temp);    
 }
 
-function circle(){//create a circle class    
-    this.x = Math.floor(Math.random()*1100)+1; 
+function circle(){
+    this.x = Math.floor(Math.random()*800)+1; 
     this.y = Math.floor(Math.random()*700)+1;
-    this.radius = 10;
+    this.radius = 7;
+        
     
-    //TO DO ******** randomise the + and - here ********
-    this.speedX = 10; //speed left right
-    this.speedY = 15; //speed up down
+    
+    //random direction
+    var getSpeedX = Math.floor(Math.random()*2)+1;
+    if(getSpeedX === 1)
+        this.speedX = 5
+    else 
+        this.speedX = -5        
+    var getSpeedY = Math.floor(Math.random()*2)+1;
+    if(getSpeedY === 1)
+        this.speedY = 8
+    else 
+        this.speedY = -8
+        
+    
+    //random colour
+    var colour = ['red', 'green', 'blue', 'black'];
+    var colIndex = Math.floor(Math.random()*colour.length);
+    
+    
+    
+    
+    
     
     this.draw = function(){
-        drawCircle(this.x,this.y, this.radius, 'red');
-    }
-    
+        drawCircle(this.x,this.y, this.radius, colour[colIndex]);
+    }    
     this.move = function(){
         this.x += this.speedX;
         this.y += this.speedY; 
@@ -33,7 +53,6 @@ function circle(){//create a circle class
         if (this.y < this.radius)//top
         this.speedY *= -1;
     }
-    
 }
 
 

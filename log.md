@@ -270,3 +270,9 @@ Got the bouncing function working properly
 Started adding classes and randomness to the variable values.
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 44: Aug 3, 2016
+
+Randomized the direction of each circle as well as their colours.
+
+**Folder Name:** 9 Bouncing Things
