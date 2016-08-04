@@ -276,3 +276,9 @@ Started adding classes and randomness to the variable values.
 Randomized the direction of each circle as well as their colours.
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 45: Aug 4, 2016
+
+Finished Bouncing Things.
+
+**Folder Name:** 9 Bouncing Things

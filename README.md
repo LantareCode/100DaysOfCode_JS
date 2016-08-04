@@ -51,3 +51,12 @@ The Twitch Status Viewer project is based on [freeCodeCamp's](https://www.freeco
 **Codepen link:** [Twitch Status Viewer](http://codepen.io/LantareCode/full/xOzBBx/)
 
 **Screenshot:** ![https://i.gyazo.com/eb04bbcdc57a4e36ddf22bbd45410ae3.jpg](https://i.gyazo.com/eb04bbcdc57a4e36ddf22bbd45410ae3.jpg)
+
+
+
+###6. Bouncing Things  - Completed Day 45: August 4, 2016
+Small project to get a feel for HTML5's canvas with JavaScript. Clicking on the screen will add more shapes.
+
+**Codepen link:** [Bouncing Things](http://codepen.io/LantareCode/full/yJRZXx/)
+
+**Screenshot:** ![https://i.gyazo.com/dfeba7ae00c05a067862fd9cb6b42531.gif](https://i.gyazo.com/dfeba7ae00c05a067862fd9cb6b42531.gif)
