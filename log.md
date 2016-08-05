@@ -282,3 +282,9 @@ Randomized the direction of each circle as well as their colours.
 Finished Bouncing Things.
 
 **Folder Name:** 9 Bouncing Things
+
+### Day 46: Aug 5, 2016
+
+Started with freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+**Folder Name:** .10 Simple JavaScript Calculator
