@@ -299,6 +299,7 @@ Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeC
 
 ### Day 48: Aug 9, 2016
 
+Finished the Calculator's layout today, so now I can start on the JavaScript part. Also did a few challenges on [HackerRank](hackerrank.com).
 
 Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
 
