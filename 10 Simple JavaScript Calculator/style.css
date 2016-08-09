@@ -6,11 +6,62 @@ html, body{
     font-family: 'Orbitron', sans-serif;
 }
 
-button{
-    height: 30px;
-    width: 30px;    
-    margin: 5px;
+
+#calculator{
+    border-radius: 5px;
+    background: black;
+    padding: 10px;
+    height: 340px;
+    width: 262px;
+    box-shadow: 0px 4px 0px 0px grey;
 }
 
-#add, #equal{    
+
+input{   
+    font-family: 'Orbitron', sans-serif;
+    width: 231px;
+    height: 30px;
+    margin-left: 10px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: inset 0px 0px 3px 0px grey;
+}
+
+button {  
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    margin: 10px 4px 10px 8px;
+    height: 40px;
+    width: 50px;
+    box-shadow: 0px 3px 0px 0px grey;
+}
+
+button:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+#add, #equal{       
+    position: absolute;    
+    height: 100px;
+}
+
+#equal{
+    margin-top: 70px;
+}
+
+#zero{
+    width: 117px;
 }

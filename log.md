@@ -289,9 +289,16 @@ Started with freeCodeCapm's Advanced Front End Development Projects: [freeCodeCa
 
 **Folder Name:** 10 Simple JavaScript Calculator
 
-### Day 46: Aug 5, 2016
+### Day 47: Aug 6, 2016
 
 Started working on the Calculator's layout.
+
+Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+**Folder Name:** 10 Simple JavaScript Calculator
+
+### Day 48: Aug 9, 2016
+
 
 Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
 
