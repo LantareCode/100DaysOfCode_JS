@@ -304,3 +304,11 @@ Finished the Calculator's layout today, so now I can start on the JavaScript par
 Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
 
 **Folder Name:** 10 Simple JavaScript Calculator
+
+### Day 49: Aug 10, 2016
+
+Adjusted the layout a little bit. And started with the basic JavaScript.
+
+Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+**Folder Name:** 10 Simple JavaScript Calculator
