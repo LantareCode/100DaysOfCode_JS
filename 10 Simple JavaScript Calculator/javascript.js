@@ -17,9 +17,14 @@ function click(){
         var equation = document.getElementById('inputField').value;
         var answer = eval(equation);
         
-        //add an if answer valid do equation else display error 
-        //add if int dont round.
-        document.getElementById('inputField').value = answer.toFixed(2);
+        if(Number.isNaN(answer))
+            document.getElementById('inputField').value = 'Error';  
+        else if(Number.isInteger(answer))//if it's an int don't round to two
+            document.getElementById('inputField').value = answer;               
+        else
+            document.getElementById('inputField').value = answer.toFixed(2);
+       
+       
             
     }
     else{       
