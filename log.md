@@ -330,3 +330,12 @@ Worked on the JavaScript calculator. Trying to implement error management
 Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
 
 **Folder Name:** 10 Simple JavaScript Calculator
+
+
+### Day 52: Aug 13, 2016
+
+Worked on the JavaScript calculator. Trying to implement error management
+
+Project Based on: freeCodeCapm's Advanced Front End Development Projects: [freeCodeCamp - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+**Folder Name:** 10 Simple JavaScript Calculator
