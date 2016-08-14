@@ -4,8 +4,8 @@ Example:
 https://codepen.io/FreeCodeCamp/full/rLJZrA/
 
 TO DO:
->   Error check
->   Clear after answer is displayed and a new number is typed.
+>   Error check, display ERROR on screen
+
 
 Ref:
 eval() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval

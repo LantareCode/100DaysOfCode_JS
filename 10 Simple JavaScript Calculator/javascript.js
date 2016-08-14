@@ -10,8 +10,8 @@ function click(){
     console.log(clickedButton);//temp test
     
     if(clickedButton === 'clear')
-        document.getElementById('inputField').value = '0';    
-    else if (clickedButton === 'div' || clickedButton === 'multi' || clickedButton === 'sub' || clickedButton === 'dot'){
+        document.getElementById('inputField').value = '0';
+    else if (clickedButton === 'divi' || clickedButton === 'multi' || clickedButton === 'sub' || clickedButton === 'dot' || clickedButton === 'add'){        
         document.getElementById('inputField').value += document.getElementById(clickedButton).value;
         equationDone = false;
     }    
@@ -28,19 +28,16 @@ function click(){
         
         equationDone = true;
     }
-    else{//If you press a NUMBER        
+    else{       
         clear();
         document.getElementById('inputField').value += document.getElementById(clickedButton).value;        
     }        
 }
 
-function clear(){//clear the original 0 value when a number is pressed.    
+function clear(){
+    console.log('clear called');
     if(document.getElementById('inputField').value === '0' || equationDone === true)  
         document.getElementById('inputField').value = '';
     
     equationDone = false;
 }
-
-//Try using euqationDone to clear after pressing equal
-
-
