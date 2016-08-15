@@ -4,12 +4,20 @@ html, body{
     width:100%; 
     height:100%; 
     font-family: 'Orbitron', sans-serif;    
+    background-color:#C1C5C8;
 }
 
+.wrap{
+    position: absolute;
+	display: table;
+	left: 50%;
+	top: 50%;
+	margin: -255px 0 0 -195px;	
+}
 
 #calculator{
     border-radius: 5px;
-    background: black;
+    background: #27282A;
     padding: 10px;
     height: 510px;
     width: 390px;
@@ -17,13 +25,14 @@ html, body{
 }
 
 
-input{   
+.input{   
     font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     
     width: 350px;
-    height: 50px;
+    height: 40px;
     margin-left: 10px;
+    margin-bottom: 0;
     border: 2px solid grey;
     border-radius: 6px;
     background-color: white;
@@ -35,7 +44,7 @@ button {
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     
-    border-radius: 8px;
+    border-radius: 5px;
     border: none;
     background-color: white;
     margin: 10px 4px 10px 8px;
@@ -45,7 +54,8 @@ button {
 }
 
 button:active {
-    transform: translate(0px, 3px);
+    -webkit-transform: translate(0px, 3px);
+            transform: translate(0px, 3px);
     box-shadow: none;
 }
 
@@ -56,6 +66,17 @@ button:visited {
     text-decoration: none !important;
     outline: none !important;
 }
+
+#clear{
+    background:#F15F74;
+}
+#divi,#multi,#sub, #add{
+    background: #5481E6;
+}
+#equal{
+    background: #98CB4A;
+}
+
 
 #add, #equal{       
     position: absolute;    

@@ -7,37 +7,45 @@ window.onload = function(){
 }
 
 function click(){
-    console.log(clickedButton);//temp test
-    
     if(clickedButton === 'clear')
-        document.getElementById('inputField').value = '0';
-    else if (clickedButton === 'divi' || clickedButton === 'multi' || clickedButton === 'sub' || clickedButton === 'dot' || clickedButton === 'add'){        
-        document.getElementById('inputField').value += document.getElementById(clickedButton).value;
+        document.getElementById('inputField').innerHTML = '0';
+    else if (clickedButton === 'divi' || clickedButton === 'multi' || clickedButton === 'sub' || clickedButton === 'dot' || clickedButton === 'add'){ 
+        if(document.getElementById('inputField').innerHTML === 'Error')
+            clear();
+        document.getElementById('inputField').innerHTML += document.getElementById(clickedButton).innerHTML;
         equationDone = false;
     }    
     else if (clickedButton === 'equal'){        
-        var equation = document.getElementById('inputField').value;
-        var answer = eval(equation);
+        var equation = document.getElementById('inputField').innerHTML;        
+        var answer;
         
-        if(Number.isNaN(answer))
-            document.getElementById('inputField').value = 'Error';  
+        try {
+            eval(equation); 
+            answer = eval(equation);
+        } catch (e) {
+            if (e instanceof SyntaxError) {
+                document.getElementById('inputField').innerHTML = 'Error';
+            }
+        }       
+        
+        if(answer == 'Infinity')
+            document.getElementById('inputField').innerHTML = 'Error';  
         else if(Number.isInteger(answer))//if it's an int don't round to two
-            document.getElementById('inputField').value = answer;               
+            document.getElementById('inputField').innerHTML = answer;               
         else
-            document.getElementById('inputField').value = answer.toFixed(2);   
+            document.getElementById('inputField').innerHTML = answer.toFixed(2);   
         
         equationDone = true;
     }
     else{       
         clear();
-        document.getElementById('inputField').value += document.getElementById(clickedButton).value;        
+        document.getElementById('inputField').innerHTML += document.getElementById(clickedButton).innerHTML;        
     }        
 }
 
-function clear(){
-    console.log('clear called');
-    if(document.getElementById('inputField').value === '0' || equationDone === true)  
-        document.getElementById('inputField').value = '';
+function clear(){    
+    if(document.getElementById('inputField').innerHTML === '0' || equationDone === true || document.getElementById('inputField').innerHTML === 'Error')  
+        document.getElementById('inputField').innerHTML = '';
     
     equationDone = false;
 }

@@ -60,3 +60,12 @@ Small project to get a feel for HTML5's canvas with JavaScript. Clicking on the 
 **Codepen link:** [Bouncing Things](http://codepen.io/LantareCode/full/yJRZXx/)
 
 **Screenshot:** ![https://i.gyazo.com/dfeba7ae00c05a067862fd9cb6b42531.gif](https://i.gyazo.com/dfeba7ae00c05a067862fd9cb6b42531.gif)
+
+
+
+###7. Simple JavaScript Calculator  - Completed Day 54: August 15, 2016
+The Simple JavaScript Calculator project is based on [freeCodeCamp's - Building a JavaScript Calculator](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+**Codepen link:** [Simple JavaScript Calculator](http://codepen.io/LantareCode/full/OXddNR/)
+
+**Screenshot:** ![https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png](https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png)
