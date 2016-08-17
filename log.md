@@ -357,3 +357,8 @@ Finished [freeCodeCamp's - Building a JavaScript Calculator](https://www.freecod
 **Codepen link:** [Simple JavaScript Calculator](http://codepen.io/LantareCode/full/OXddNR/)
 
 **Folder Name:** 10 Simple JavaScript Calculator
+
+
+### Day 55: Aug 17, 2016
+
+Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.freecodecamp.com) while thinking of a new JavaScript project to start.
