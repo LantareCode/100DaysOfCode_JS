@@ -362,3 +362,8 @@ Finished [freeCodeCamp's - Building a JavaScript Calculator](https://www.freecod
 ### Day 55: Aug 17, 2016
 
 Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.freecodecamp.com) while thinking of a new JavaScript project to start.
+
+
+### Day 56: Aug 18, 2016
+
+Did some JavaScript challenges on [CodeWars](www.codewars.com).
