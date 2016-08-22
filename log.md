@@ -372,3 +372,8 @@ Did some JavaScript challenges on [CodeWars](www.codewars.com).
 ### Day 57: Aug 19, 2016
 
 Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.freecodecamp.com).
+
+
+### Day 58: Aug 22, 2016
+
+Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.freecodecamp.com).
