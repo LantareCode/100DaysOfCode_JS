@@ -1,0 +1,5 @@
+_________    L I N K S    _________
+
+https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js-iv
+   
+   http://p5js.org/get-started/

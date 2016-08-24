@@ -382,3 +382,25 @@ Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.free
 ### Day 59: Aug 23, 2016
 
 Working on [freeCodeCamp's Intermediate Algorithm Scripting Challenges](www.freecodecamp.com) and started reading about p5.js.
+
+
+### Day 60: Aug 24, 2016
+
+Started playing around with p5.js
+
+**Folder Name:** 11 p5.js Things
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
