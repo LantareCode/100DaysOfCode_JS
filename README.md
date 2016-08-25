@@ -68,4 +68,6 @@ The Simple JavaScript Calculator project is based on [freeCodeCamp's - Building 
 
 **Codepen link:** [Simple JavaScript Calculator](http://codepen.io/LantareCode/full/OXddNR/)
 
-**Screenshot:** ![https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png](https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png)
+**Screenshot:** 
+
+![https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png](https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png)

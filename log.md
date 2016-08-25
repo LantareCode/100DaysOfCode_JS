@@ -391,8 +391,13 @@ Started playing around with p5.js
 **Folder Name:** 11 p5.js Things
 
 
+### Day 61: Aug 25, 2016
 
+Read about Machine Learning and using Bayes Theorem. Also practiced using the #p5xjs library some more.
 
+**Codepen link for one of the patterns made today:** [link](http://codepen.io/LantareCode/full/AXGyzN/)
+
+**Folder Name:** 11 p5.js Things
 
 
 
