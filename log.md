@@ -400,6 +400,13 @@ Read about Machine Learning and using Bayes Theorem. Also practiced using the #p
 **Folder Name:** 11 p5.js Things
 
 
+### Day 62: Aug 26, 2016
+
+Started prepping for a new JavaScript project!
+
+**Folder Name:** 12 Drawing with Arrays
+
+
 
 
 
