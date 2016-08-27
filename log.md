@@ -407,6 +407,13 @@ Started prepping for a new JavaScript project!
 **Folder Name:** 12 Drawing with Arrays
 
 
+### Day 63: Aug 27, 2016
+
+Saw a one-line Commodore 64 BASIC program that generates a maze using the characters / and \, trying to recreate it with JavaScript.
+
+**Folder Name:** 13 JavaScript Maze
+
+
 
 
 
