@@ -411,7 +411,16 @@ Started prepping for a new JavaScript project!
 
 Saw a one-line Commodore 64 BASIC program that generates a maze using the characters / and \, trying to recreate it with JavaScript.
 
-**Folder Name:** 13 JavaScript Maze
+**Folder Name:** 13 JavaScript GOTO 10 Maze
+
+
+### Day 64: Aug 28, 2016
+
+Finished the JavaScript GOTO 10 maze.
+
+**CodePen Link:** [GOTO 10 JavaScript Maze ](http://codepen.io/LantareCode/full/yJmpEw/)
+
+**Folder Name:** 13 JavaScript GOTO 10 Maze
 
 
 

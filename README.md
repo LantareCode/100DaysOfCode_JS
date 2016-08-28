@@ -71,3 +71,13 @@ The Simple JavaScript Calculator project is based on [freeCodeCamp's - Building 
 **Screenshot:** 
 
 ![https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png](https://i.gyazo.com/1d141be93bd47905473e7ac9a0c5e5b8.png)
+
+
+
+###7. JavaScript GOTO 10 Maze  - Completed Day 64: August 28, 2016
+Saw a one-line Commodore 64 BASIC program that generates a maze using the characters ╱ and ╲ and tried to remake it in JavaScript.
+
+**CodePen Link:** [GOTO 10 JavaScript Maze ](http://codepen.io/LantareCode/full/yJmpEw/)
+
+**Screenshot:** ![https://i.gyazo.com/4f1a8031082aae89e01685272168ead5.gif](https://i.gyazo.com/4f1a8031082aae89e01685272168ead5.gif)
+
