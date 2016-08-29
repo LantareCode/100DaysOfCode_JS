@@ -423,6 +423,11 @@ Finished the JavaScript GOTO 10 maze.
 **Folder Name:** 13 JavaScript GOTO 10 Maze
 
 
+### Day 65: Aug 29, 2016
+
+Worked on the project and got everything ready to start drawing!
+
+**Folder Name:** 12 Drawing with Arrays
 
 
 
