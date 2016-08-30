@@ -1,0 +1,4 @@
+> drop box to choose x by y size
+> box to paste in a string (that gets cut into an array)
+> tick box to choose stroke or not
+> list colours

@@ -430,6 +430,13 @@ Worked on the project and got everything ready to start drawing!
 **Folder Name:** 12 Drawing with Arrays
 
 
+### Day 66: Aug 30, 2016
+
+Basic drawing functionality is done, next step is to add a basic ui. 
+
+**Folder Name:** 12 Drawing with Arrays
+
+
 
 
 

@@ -1,13 +1,13 @@
 var canvas, context;
 
 var blockX = 0, blockY = 0;
-var blockWidth = blockHeight = 100;//5x5
-
+//var blockWidth = blockHeight = 200;//5x5
+var blockWidth = blockHeight = 62.5;//16X16
 window.onload = function(){
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
-    canvas.width = 500;
-    canvas.height = 500;
+    canvas.width = 1000;
+    canvas.height = 1000;
     
     draw();
 }
@@ -27,12 +27,15 @@ function draw(){
         else{//if block, check color, draw, add width to blockX.            
             
             switch(drawing[i]){//set colors
-                case 'B':
+                case 'R':
+                    colour = 'red';
+                    break;
+                case 'BL':
                     colour = 'black';
                     break;
                 case 'W':
                     colour = 'white';
-                    break;
+                    break;                
                 default:
                     colour = '#39FF14';
             }
@@ -44,22 +47,37 @@ function draw(){
 
 function drawBlock(x,y, width,height, colour){ 
     canvasContext.fillStyle = colour;
-    canvasContext.fillRect(x,y, width,height);   
+    canvasContext.fillRect(x,y, width,height); 
+    
+    
+    canvasContext.strokeStyle = "black";
+    canvasContext.lineWidth = 1;
+    canvasContext.strokeRect(x,y, width,height);
 }
 
 //draw with string and cut into array?
 
 
 //if 5x5 canvas draw: 6x5, extra line to show linebreak
-var drawing = ['B','W','B','W','B','break',
+/*var drawing = ['B','W','B','W','B','break',
                'W','B','W','B','W','break',
                'B','W','B','W','B','break',
                'W','B','W','B','W','break',
-               'B','W','B','W','B','break'];
+               'B','W','B','W','B','break'];*/
 
-
-
-/*  
-    Draw next to: add blockWidth to blockX
-    Draw under: add blockHeight to block Y
-*/
+var drawing = ['W','W','W','W','W','BL','BL','BL','BL','BL','BL','W','W','W','W','W','break',
+               'W','W','W','BL','BL','BL','W','R','R','W','BL','BL','BL','W','W','W','break',
+               'W','W','BL','BL','W','W','W','R','R','W','W','W','BL','BL','W','W','break',
+               'W','BL','BL','R','W','W','R','R','R','R','W','W','R','BL','BL','W','break',
+               'W','BL','W','R','R','R','R','R','R','R','R','R','R','W','BL','W','break',
+               'BL','BL','W','W','R','R','W','W','W','W','R','R','W','W','BL','BL','break',
+               'BL','W','W','W','R','W','W','W','W','W','W','R','W','W','W','BL','break',
+               'BL','W','W','W','R','W','W','W','W','W','W','R','W','W','W','BL','break',
+               'BL','W','W','W','R','W','W','W','W','W','W','R','W','W','W','BL','break',
+               'BL','R','R','R','R','R','W','W','W','W','R','R','R','R','R','BL','break',
+               'BL','R','R','BL','BL','BL','BL','BL','BL','BL','BL','BL','BL','R','R','BL','break',
+               'BL','BL','BL','BL','W','W','BL','W','W','BL','W','W','BL','BL','BL','BL','break',
+               'W','BL','BL','W','W','W','BL','W','W','BL','W','W','W','BL','BL','W','break',
+               'W','W','BL','W','W','W','W','W','W','W','W','W','W','BL','W','W','break',
+               'W','W','BL','BL','W','W','W','W','W','W','W','W','BL','BL','W','W','break',
+               'W','W','W','BL','BL','BL','BL','BL','BL','BL','BL','BL','BL','W','W','W'];
