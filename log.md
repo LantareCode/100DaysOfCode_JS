@@ -443,6 +443,12 @@ Working on a small project for a local sports club.
 
 **Folder Name:** Currently in a private repository. 
 
+### Day 68: Sept 1, 2016
+
+Working on a small project for a local sports club. Stuck on a problem that seems simple in theory, but can't quite get it across in code just yet.
+
+**Folder Name:** Currently in a private repository. 
+
 
 
 
