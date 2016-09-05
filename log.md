@@ -437,10 +437,22 @@ Basic drawing functionality is done, next step is to add a basic ui.
 **Folder Name:** 12 Drawing with Arrays
 
 
+### Day 67: Aug 31, 2016
+
+Working on a small project for a local sports club.
+
+**Folder Name:** Currently in a private repository. 
 
 
+### Day 68: Sept 1, 2016
+
+Working on a small project for a local sports club. Stuck on a problem that seems simple in theory, but can't quite get it across in code just yet.
+
+**Folder Name:** Currently in a private repository. 
 
 
+### Day 69: Sept 5, 2016
 
+Working on a small project for a local sports club. I'm stuck.
 
-
+**Folder Name:** Currently in a private repository. 
