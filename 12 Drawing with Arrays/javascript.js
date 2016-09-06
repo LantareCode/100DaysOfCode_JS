@@ -1,13 +1,13 @@
 var canvas, context;
 
 var blockX = 0, blockY = 0;
-//var blockWidth = blockHeight = 200;//5x5
-var blockWidth = blockHeight = 62.5;//16X16
+//var blockWidth = blockHeight = 100;//5x5
+var blockWidth = blockHeight = 31.25;//16X16
 window.onload = function(){
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
-    canvas.width = 1000;
-    canvas.height = 1000;
+    canvas.width = 500;
+    canvas.height = 500;
     
     draw();
 }

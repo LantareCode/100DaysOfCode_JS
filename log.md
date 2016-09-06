@@ -455,3 +455,10 @@ Working on a small project for a local sports club. Stuck on a problem that seem
 Working on a small project for a local sports club. I'm stuck.
 
 **Folder Name:** Currently in a private repository. 
+
+
+### Day 70: Sept 6, 2016
+
+Working on a small project for a local sports club. Made some progress, reading up on the Round Robin search algoirthm.
+
+**Folder Name:** Currently in a private repository. 
