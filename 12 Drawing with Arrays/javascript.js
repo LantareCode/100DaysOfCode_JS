@@ -10,7 +10,7 @@ window.onload = function(){
     canvas.height = 500;
     
     draw();
-}
+} 
 
 function draw(){
     drawBlock(0,0, canvas.width, canvas.height, 'grey');

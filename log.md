@@ -462,3 +462,10 @@ Working on a small project for a local sports club. I'm stuck.
 Working on a small project for a local sports club. Made some progress, reading up on the Round Robin search algoirthm.
 
 **Folder Name:** Currently in a private repository. 
+
+
+### Day 71: Sept 09, 2016
+
+Started adding some of the UI needed for users to add drawings without editing the code. 
+
+**Folder Name:** 12 Drawing with Arrays
