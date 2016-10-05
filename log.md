@@ -469,3 +469,14 @@ Working on a small project for a local sports club. Made some progress, reading 
 Started adding some of the UI needed for users to add drawings without editing the code. 
 
 **Folder Name:** 12 Drawing with Arrays
+
+Note: Going on holiday for 3 weeks with no access to a computer, 100DaysOfCode on hold until back.
+
+
+### Day 72: Oct 05, 2016
+
+Back from holiday.
+
+Added a new drawing to start testing converting a string drawing into array.
+
+**Folder Name:** 12 Drawing with Arrays

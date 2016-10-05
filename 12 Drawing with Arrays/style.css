@@ -1,7 +1,10 @@
 {margin:0; padding:0;}
 
-canvas{
-    background:grey;
+html{background: #FFFAFA;}
+canvas{    
+    border:1px solid #000;
+    
+    background:grey;    
     
     margin-top:100px;
     

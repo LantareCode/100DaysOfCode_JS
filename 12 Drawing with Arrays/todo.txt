@@ -4,5 +4,9 @@
 > list colours
 > show a small example
 
+> option to choose canvas size, how many blocks, and size block automatically
+> check remove spaces in array
+
+> create a few pre-defined pictures?
 > Maybe add option to Draw By Hand and Import String?
     
