@@ -14,6 +14,11 @@ window.onload = function(){
     draw();
 } 
 
+function createDrawingArray(){    
+}
+
+
+
 function draw(){
     drawBlock(0,0, canvas.width, canvas.height, 'grey');
     
@@ -76,7 +81,8 @@ function drawBlock(x,y, width,height, colour){
 
 //pumpkin 18x18
 var pumpkin = 'G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
-var drawing = pumpkin.split(' ');
+
+var drawing = pumpkin.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
 
 //mario mushroom 16x16
 /*var drawing = ['W','W','W','W','W','BL','BL','BL','BL','BL','BL','W','W','W','W','W','break',

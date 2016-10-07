@@ -480,3 +480,10 @@ Back from holiday.
 Added a new drawing to start testing converting a string drawing into array.
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 73: Oct 06, 2016
+
+Refined to do list, started working on the function for user intput. String removes extra spaces before splitting into drawing array
+
+**Folder Name:** 12 Drawing with Arrays

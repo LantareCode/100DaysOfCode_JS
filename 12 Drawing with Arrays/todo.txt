@@ -1,12 +1,17 @@
-> drop box to choose x by y size
 > box to paste in a string (that gets cut into an array)
 > tick box to choose stroke or not
-> list colours
-> show a small example
 
+
+CANVAS SIZE
+> drop box to choose x by y size
 > option to choose canvas size, how many blocks, and size block automatically
-> check remove spaces in array
 
-> create a few pre-defined pictures?
+
+
+> list colours
+> create a few pre-defined pictures
+> check and remove line-breaks
+
+
 > Maybe add option to Draw By Hand and Import String?
     
