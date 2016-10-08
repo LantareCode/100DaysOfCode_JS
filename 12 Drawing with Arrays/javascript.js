@@ -4,6 +4,13 @@ var blockX = 0, blockY = 0;
 //var blockWidth = blockHeight = 100;//5x5
 //var blockWidth = blockHeight = 31.25;//16X16
 var blockWidth = blockHeight = 500/18;
+
+$(document).ready(function() {
+    $('#drawBtn').click(function(){
+        userDraw(); 
+    });
+});
+
 window.onload = function(){
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
@@ -14,15 +21,23 @@ window.onload = function(){
     draw();
 } 
 
-function createDrawingArray(){    
+
+function userDraw(){
+    /*
+        When user clicks submit:
+            Get x by y blocks and calculate block size.
+            Get input string, change into array and display
+    */
+    
+    alert('click');
 }
-
-
 
 function draw(){
     drawBlock(0,0, canvas.width, canvas.height, 'grey');
+
+    var drawing = pumpkin.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
+    var colour = '';   
     
-    var colour = '';
     
     for(var i = 0; i < drawing.length; i++){
         
@@ -31,8 +46,7 @@ function draw(){
             blockY += blockHeight;
             blockX = 0;
         }
-        else{//if block, check color, draw, add width to blockX.            
-            
+        else{//if block, check color, draw, add width to blockX.   
             switch(drawing[i]){//set colors
                 case 'O'://orange
                     colour = '#D2691E';
@@ -68,7 +82,8 @@ function drawBlock(x,y, width,height, colour){
     canvasContext.strokeRect(x,y, width,height);
 }
 
-//draw with string and cut into array?
+
+
 
 
 //if 5x5 canvas draw: 6x5, extra line to show linebreak
@@ -82,7 +97,7 @@ function drawBlock(x,y, width,height, colour){
 //pumpkin 18x18
 var pumpkin = 'G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
 
-var drawing = pumpkin.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
+//var drawing = pumpkin.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
 
 //mario mushroom 16x16
 /*var drawing = ['W','W','W','W','W','BL','BL','BL','BL','BL','BL','W','W','W','W','W','break',
