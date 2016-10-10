@@ -7,8 +7,7 @@ var blockWidth = blockHeight = 500/18;
 
 var user_picture = '';
 
-//pumpkin 18x18
-var pumpkin = 'G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
+
 
 
 
@@ -25,8 +24,8 @@ window.onload = function(){
     
     
     
-    user_picture = pumpkin;       
-    draw(user_picture);
+    //user_picture = pumpkin;       
+    draw();    
 } 
 
 
@@ -37,21 +36,16 @@ function userDraw(){
             Get x by y blocks and calculate block size.            
     */
     
-    var temp = document.getElementById('userInput').value;    
+    var temp = document.getElementById('userInput').value;       
     
-    alert('click: ' + temp);    
-    
-    var pumpkin2 = 'BL G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
-    
-    
-    user_picture = pumpkin2;       
-    draw(user_picture);
+    user_picture = pumpkin;       
+    draw();
 }
 
-function draw(picture){
+function draw(){    
     drawBlock(0,0, canvas.width, canvas.height, 'grey');
 
-    var drawing = picture.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
+    var drawing = user_picture.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
     var colour = '';   
     
     
@@ -110,10 +104,8 @@ function drawBlock(x,y, width,height, colour){
                'B','W','B','W','B','break'];*/
 
 
-/*
 //pumpkin 18x18
 var pumpkin = 'G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
-*/
 
 //var drawing = pumpkin.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
 
