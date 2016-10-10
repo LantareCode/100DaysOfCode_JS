@@ -494,3 +494,10 @@ Refined to do list, started working on the function for user intput. String remo
 Working on the drawing function for when a user clicks draw
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 75: Oct 10, 2016
+
+Working on the drawing function for when a user clicks draw a little bit stuck with canvas and practiced depth-limited, depth-first AND/OR searching with Prolog.
+
+**Folder Name:** 12 Drawing with Arrays
