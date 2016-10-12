@@ -501,3 +501,10 @@ Working on the drawing function for when a user clicks draw
 Working on the drawing function for when a user clicks draw a little bit stuck with canvas and practiced depth-limited, depth-first AND/OR searching with Prolog.
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 76: Oct 12, 2016
+
+Working on the drawing function for when a user clicks draw the value doesn't stay changed.
+
+**Folder Name:** 12 Drawing with Arrays

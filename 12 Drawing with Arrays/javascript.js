@@ -1,4 +1,5 @@
 var canvas, context;
+var count = 0;
 
 var blockX = 0, blockY = 0;
 //var blockWidth = blockHeight = 100;//5x5
@@ -7,14 +8,20 @@ var blockWidth = blockHeight = 500/18;
 
 var user_picture = '';
 
+/*$(document).ready(function (){
+    $('#drawBtn').click(function(){
+        newPicture(); 
+    });
+});*/
 
-
-
+document.getElementById('drawBtn').onclick = function (){    
+    newPicture();
+}
 
 window.onload = function(){
-    $('#drawBtn').click(function(){
+    /*$('#drawBtn').click(function(){
         userDraw(); 
-    });
+    });*/
     
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
@@ -22,27 +29,36 @@ window.onload = function(){
     canvas.width = 500;
     canvas.height = 500;
     
-    
+    console.log('in onload' + user_picture + ' counter: ' + count);
     
     //user_picture = pumpkin;       
-    draw();    
+    //draw(); 
+     //userDraw();
+    /*var framesPerSecond = 30;
+    setInterval(updateAll, 1000/framesPerSecond);*/
+    updateAll();
+    
 } 
 
-
-function userDraw(){
-    /*
-        When user clicks submit:
-            Get input string, change into array and display
-            Get x by y blocks and calculate block size.            
-    */
-    
-    var temp = document.getElementById('userInput').value;       
-    
-    user_picture = pumpkin;       
-    draw();
+function updateAll(){    
+    newPicture();
+    draw();    
 }
 
-function draw(){    
+function newPicture(){
+    count++;
+    if (document.getElementById('userInput').value === '')
+        user_picture = pumpkin;
+    else
+        user_picture = document.getElementById('userInput').value;
+    
+    
+}
+
+function draw(){  
+    console.log('in onload' + user_picture + ' counter: ' + count);
+    
+    
     drawBlock(0,0, canvas.width, canvas.height, 'grey');
 
     var drawing = user_picture.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
