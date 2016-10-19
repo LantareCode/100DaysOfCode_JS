@@ -1,69 +1,50 @@
 var canvas, context;
 var count = 0;
 
+
 var blockX = 0, blockY = 0;
 //var blockWidth = blockHeight = 100;//5x5
 //var blockWidth = blockHeight = 31.25;//16X16
-var blockWidth = blockHeight = 500/18;
-
-var user_picture = '';
-
-/*$(document).ready(function (){
-    $('#drawBtn').click(function(){
-        newPicture(); 
-    });
-});*/
-
-document.getElementById('drawBtn').onclick = function (){    
-    newPicture();
-}
+var blockWidth = blockHeight = 500/18;//18x18
 
 window.onload = function(){
-    /*$('#drawBtn').click(function(){
-        userDraw(); 
-    });*/
-    
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
     
     canvas.width = 500;
     canvas.height = 500;
     
-    console.log('in onload' + user_picture + ' counter: ' + count);
+    var default_image = 'R R R R R R R R R R BL BL R R R R R R break R R R R R R R R R R BL BL R R R R R R break R R R R R R R R R BL BL BL R R R R R R break R R R R R R R R BL BL BL R R R R R R R break R R R R BL BL BL R BL BL R BL BL BL R R R R break R R BL BL O BL O BL BL BL BL O BL O BL BL R R break R BL O BL BL O O O O O O O O BL BL O BL R break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break R BL O O BL O O O O O O O O BL O O BL R break R R BL BL O O O O O O O O O O BL BL R R break R R R R BL BL BL BL BL BL BL BL BL BL R R R R break';       
+    draw(default_image);
     
-    //user_picture = pumpkin;       
-    //draw(); 
-     //userDraw();
-    /*var framesPerSecond = 30;
-    setInterval(updateAll, 1000/framesPerSecond);*/
-    updateAll();
-    
-} 
-
-function updateAll(){    
-    newPicture();
-    draw();    
+    console.log(count);
+    $(document).ready(function() {
+        $('#drawBtn').click(function() {            
+            changeUserPicture();
+        }); 
+    });
 }
 
-function newPicture(){
-    count++;
+
+function changeUserPicture(){
+    var user_picture = '';
     if (document.getElementById('userInput').value === '')
         user_picture = pumpkin;
-    else
-        user_picture = document.getElementById('userInput').value;
-    
-    
+    else if (document.getElementById('userInput').value !== ''){
+        user_picture = '\'' + document.getElementById('userInput').value + '\'';               
+    }
+   
+    draw(user_picture);
 }
 
-function draw(){  
-    console.log('in onload' + user_picture + ' counter: ' + count);
+function draw(picture){  
+    console.log('PICTURE:' + picture);    
+    var drawing = [];
+    //drawBlock(0,0, canvas.width, canvas.height, 'grey');
     
-    
-    drawBlock(0,0, canvas.width, canvas.height, 'grey');
-
-    var drawing = user_picture.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
-    var colour = '';   
-    
+    drawing = picture.replace(/\s+/g,' ').trim().split(' ');//removes white spaces
+    console.log ('DRAWING ARRAY: ' + drawing);
+    var colour = '';       
     
     for(var i = 0; i < drawing.length; i++){
         
@@ -110,6 +91,11 @@ function drawBlock(x,y, width,height, colour){
 
 
 
+
+
+
+
+/***************************************************************************************/
 
 
 //if 5x5 canvas draw: 6x5, extra line to show linebreak

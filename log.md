@@ -508,3 +508,10 @@ Working on the drawing function for when a user clicks draw a little bit stuck w
 Working on the drawing function for when a user clicks draw the value doesn't stay changed.
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 77: Oct 19, 2016
+
+Fixed the main bug that I was stuck on, image now changes to user input. Still a couple of problems. But should be able to sort them out with giving some of the functions parameters.
+
+**Folder Name:** 12 Drawing with Arrays
