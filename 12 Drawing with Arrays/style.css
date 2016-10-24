@@ -16,3 +16,8 @@ canvas{
     display: block;    
 
 }
+
+
+.buttons{
+    cursor: crosshair;    
+}

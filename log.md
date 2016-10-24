@@ -515,3 +515,10 @@ Working on the drawing function for when a user clicks draw the value doesn't st
 Fixed the main bug that I was stuck on, image now changes to user input. Still a couple of problems. But should be able to sort them out with giving some of the functions parameters.
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 78-82: Oct 20-24, 2016
+
+Most functionality for Drawing with Arrays added. To Do: Style, instructions and one more option for users
+
+**Folder Name:** 12 Drawing with Arrays

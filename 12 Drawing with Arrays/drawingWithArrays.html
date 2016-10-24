@@ -15,14 +15,27 @@
     <body>   
         <center>Drawing with Arrays</center>
         <canvas id="canvas"></canvas>
-        
         <center>  
             <br/>           
-        
-            Paste your string without line breaks 'R R break G G break' : <input type="text" id="userInput" value=''><br>            
-            <div id='drawBtn'>TESTTTT</div>
-        
-        
+           <!-- Paste your string without line breaks: R R break G G break : <input type="text" id="userInput" value=''><br>                      -->  
+            <form>                
+                Paste your string: R R break G G break : <input type="text" id="userInput" value=''><br/>                
+                Image number of blocks (x,y): <input type="text" id="userBlocks" value=''><br/>
+                Stroke Blocks: <input type="checkbox" id="stroke" value="stroke" checked><br/>
+            </form> 
+            <div class='buttons' id='resetInput'>Reset Input</div> 
+            <div class='buttons' id='drawBtn'>Draw Button!</div>
+            
+            <br/>
+            <form>
+                Some Pre-defined drawings:
+                <select id='pictureSelect'>
+                  <option value="chessboard" id="chessboard">Chessboard (5x5)</option>
+                  <option value="pumpkin" id="pumpkin">Pumpkin (18x18)</option>
+                  <option value="mushroom" id="mushroom">Super Mario Mushroom (16x16)</option>
+                </select><br/>
+            </form>
+            <div class='buttons' id='displayBtn'>Display Button!</div>
         </center>
         
         

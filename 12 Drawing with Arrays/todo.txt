@@ -1,17 +1,8 @@
-> box to paste in a string (that gets cut into an array)
-> tick box to choose stroke or not
-
-
-CANVAS SIZE
-> drop box to choose x by y size
-> option to choose canvas size, how many blocks, and size block automatically
-
-
-
 > list colours
-> create a few pre-defined pictures
-> check and remove line-breaks
+> Style the menu etc better. 
+> pop-up detailed instructions.
 
-
-> Maybe add option to Draw By Hand and Import String?
+Optional
+> add user ability to choose canvas size.
+> add option to Draw By Hand and Import String?
     
