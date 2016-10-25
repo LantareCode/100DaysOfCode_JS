@@ -1,12 +1,17 @@
 {margin:0; padding:0;}
 
-html{background: #FFFAFA;}
+html{background: #FFFAFA; font-family: 'Nunito', sans-serif;}
+
+.heading{
+    font-size: 90px;
+}
+
 canvas{    
     border:1px solid #000;
     
     background:grey;    
     
-    margin-top:100px;
+    margin-top:11px;
     
     padding-left: 0;
     padding-right: 0;
@@ -17,7 +22,61 @@ canvas{
 
 }
 
-
-.buttons{
-    cursor: crosshair;    
+form{
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
 }
+
+ul, li{
+    padding: 0;
+}
+
+#instructions{
+    /*display: none;*/
+}
+
+.textInputs{
+    width: 50px;
+}
+#userInput{
+    width: 550px;
+}
+
+.buttons {      
+    font-size: 16px;    
+    border-radius: 8px;
+    border: dashed;
+    border-width: 1px;
+    margin: 4px 10px 8px;    
+    box-shadow: 0px 8px 0px 0px grey;
+    padding-top: 5px;
+    
+    display: inline-block; width: 100px; height: 30px;
+    
+    cursor: pointer;
+    user-select: none; 
+    
+}
+
+.buttons:active {
+    -webkit-transform: translate(0px, 3px);
+            transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.buttons,
+.buttons:hover,
+.buttons:active,
+.buttons:visited {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+
+

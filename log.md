@@ -522,3 +522,10 @@ Fixed the main bug that I was stuck on, image now changes to user input. Still a
 Most functionality for Drawing with Arrays added. To Do: Style, instructions and one more option for users
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 83: Oct 25, 2016
+
+Only a couple of touchups left.
+
+**Folder Name:** 12 Drawing with Arrays

@@ -1,7 +1,7 @@
 var canvas, context;
 var count = 0;
 
-var canvasWidth = canvasHeight = 500;
+var canvasWidth = canvasHeight = 0;
 var blockX = 0, blockY = 0;
 var blockWidth = blockHeight = 0;
 
@@ -9,8 +9,8 @@ window.onload = function(){
     canvas = document.getElementById('canvas');
     canvasContext = canvas.getContext('2d');
     
-    canvas.width = canvasWidth;
-    canvas.height = canvasHeight;
+    canvas.width = 500;
+    canvas.height = 500;
     
     document.getElementById('pumpkin').selected = true;
     displayPicture();
@@ -31,19 +31,35 @@ window.onload = function(){
 
 function resetInput(){    
     document.getElementById('userInput').value = '';
-    document.getElementById('userBlocks').value = '';
+    document.getElementById('userCanvasWidth').value = '';
+    document.getElementById('userCanvasHeight').value = '';
+    document.getElementById('userBlocksX').value = '';
+    document.getElementById('userBlocksY').value = '';
     document.getElementById('stroke').checked = false;
 }
 
 
 function changeUserPicture(){
+    //Get canvas size
+    var custom_canvasWidth = 0;
+    var custom_canvasHeight = 0;
+    if (document.getElementById('userCanvasWidth').value !== '' || document.getElementById('userCanvasHeight').value !== ''){
+        custom_canvasWidth = document.getElementById('userCanvasWidth').value;
+        custom_canvasHeight = document.getElementById('userCanvasHeight').value;
+        
+        canvas.width = custom_canvasWidth;
+        canvas.height = custom_canvasHeight;
+    }
+    
     //Get number of bloks
-    var block_num = 0;
-    if (document.getElementById('userBlocks').value !== ''){
-        block_num = document.getElementById('userBlocks').value;
-        blockWidth = canvasWidth/block_num;
-        blockHeight = canvasHeight/block_num;
-    }    
+    var block_numX = 0;
+    var block_numY = 0;
+    if (document.getElementById('userBlocksX').value !== '' || document.getElementById('userBlocksY').value !== ''){
+        block_numX = document.getElementById('userBlocksX').value;
+        block_numY = document.getElementById('userBlocksY').value;
+        blockWidth =  canvas.width/block_numX;
+        blockHeight =  canvas.height/block_numY;
+    }       
     
     //Get picture
     var user_picture = '';
@@ -92,9 +108,21 @@ function draw(picture){
                     break;
                 case 'W':
                     colour = 'white';
-                    break;                
+                    break;   
+                case 'B_GR'://bright green
+                    colour = '#00CC00';
+                    break;
+                case 'L_GR'://light green
+                    colour = '#A1DD17';
+                    break;
+                case 'L_B'://Light Blue
+                    colour = '#00FFFF';
+                    break;
+                case 'BR'://Brown
+                    colour = '#663300';
+                    break;
                 default:
-                    colour = '#39FF14';
+                    colour = '#39FF14';//neongreen
             }
             
             //check box
@@ -128,34 +156,59 @@ function displayPicture(){
     var selectedPicture = element.options[element.selectedIndex].value;    
     
     var predefinedPicture = '';
-    var predefinedBlockNum = ''; 
+    var predefinedBlockNumX = 0; 
+    var predefinedBlockNumY = 0; 
+    var predefinedCanvasWidth = 0;
+    var predefinedCanvasHeight = 0;
     var predefinedStroked = false;
     
     switch(selectedPicture){
         case 'chessboard':
-            predefinedPicture = 'BL W BL W BL break W BL W BL W break BL W BL W BL break W BL W BL W break BL W BL W BL break';            
-            predefinedBlockNum = 5;  
+            predefinedPicture = 'BL W BL W BL break W BL W BL W break BL W BL W BL break W BL W BL W break BL W BL W BL break';
+            predefinedBlockNumX = 5; 
+            predefinedBlockNumY = 5;  
+            predefinedCanvasWidth = predefinedCanvasHeight = 700;
             predefinedStroked = false;
             break;  
         case 'pumpkin':
             predefinedPicture = 'G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G G BL BL G G G G G G break G G G G G G G G G BL BL BL G G G G G G break G G G G G G G G BL BL BL G G G G G G G break G G G G BL BL BL G BL BL G BL BL BL G G G G break G G BL BL O BL O BL BL BL BL O BL O BL BL G G break G BL O BL BL O O O O O O O O BL BL O BL G break BL O BL BL O BL BL O O O O BL BL O BL BL O BL break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O BL BL BL BL O O BL BL BL BL O BL O BL O break BL O BL O O BL BL O O O O BL BL O O BL O BL break BL O O O O O O O O O O O O O O O O BL break BL O O O BL O BL O BL BL O BL O BL O O O BL break BL O BL O BL BL BL BL BL BL BL BL BL BL O BL O BL break BL O O BL O BL O BL O O BL O BL O BL O O BL break G BL O O BL O O O O O O O O BL O O BL G break G G BL BL O O O O O O O O O O BL BL G G break G G G G BL BL BL BL BL BL BL BL BL BL G G G G break';
-            predefinedBlockNum = 18;
+            predefinedBlockNumX = 18;
+            predefinedBlockNumY = 18;
+            predefinedCanvasWidth = predefinedCanvasHeight = 500;
             predefinedStroked = true;
             break;
         case 'mushroom':
             predefinedPicture = 'W W W W W BL BL BL BL BL BL W W W W W break W W W BL BL BL W R R W BL BL BL W W W break W W BL BL W W W R R W W W BL BL W W break W BL BL R W W R R R R W W R BL BL W break W BL W R R R R R R R R R R W BL W break BL BL W W R R W W W W R R W W BL BL break BL W W W R W W W W W W R W W W BL break BL W W W R W W W W W W R W W W BL break BL W W W R W W W W W W R W W W BL break BL R R R R R W W W W R R R R R BL break BL R R BL BL BL BL BL BL BL BL BL BL R R BL break BL BL BL BL W W BL W W BL W W BL BL BL BL break W BL BL W W W BL W W BL W W W BL BL W break W W BL W W W W W W W W W W BL W W break W W BL BL W W W W W W W W BL BL W W break W W W BL BL BL BL BL BL BL BL BL BL W W W';
-            predefinedBlockNum = 16;
+            predefinedBlockNumX = 16;
+            predefinedBlockNumY = 16;
+            predefinedCanvasWidth = predefinedCanvasHeight = 500;
             predefinedStroked = false;
             break;
+        case 'creeper':
+            predefinedPicture = 'L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B B_GR B_GR B_GR W B_GR B_GR G B_GR G B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR L_GR B_GR B_GR L_GR B_GR B_GR B_GR B_GR B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR B_GR BL BL B_GR B_GR BL BL B_GR B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR W BL BL B_GR L_GR BL BL G B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR L_B L_B L_B L_B break  L_B L_B L_B L_B B_GR L_GR B_GR B_GR BL BL B_GR W B_GR B_GR L_B L_B L_B L_B break  L_B L_B L_B L_B B_GR G B_GR BL BL BL BL B_GR G B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR B_GR B_GR BL B_GR B_GR BL B_GR B_GR B_GR L_B L_B L_B L_B break L_B L_B L_B L_B B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR B_GR W G B_GR B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR G B_GR B_GR B_GR L_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR B_GR B_GR B_GR B_GR B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR B_GR B_GR L_GR B_GR B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR L_GR B_GR B_GR B_GR B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR B_GR B_GR B_GR G B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR W B_GR B_GR B_GR B_GR L_B L_B L_B L_B L_B L_B break L_B L_B L_B L_B L_B L_B B_GR W B_GR W B_GR B_GR L_B L_B L_B L_B L_B L_B break BR BR BR BR BR BR B_GR G B_GR L_GR B_GR B_GR BR BR BR BR BR BR break BR BR BR BR BR BR B_GR B_GR B_GR L_GR G B_GR BR BR BR BR BR BR break BR BR BR BR W B_GR B_GR B_GR B_GR B_GR B_GR B_GR L_GR B_GR BR BR BR BR break BR BR BR BR B_GR L_GR B_GR B_GR B_GR G B_GR G L_GR B_GR BR BR BR BR break BR BR BR BR B_GR L_GR B_GR L_GR B_GR B_GR B_GR B_GR B_GR B_GR BR BR BR BR break BR BR BR BR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR B_GR BR BR BR BR break BR BR BR BR G BL G BL G BL G BL G BL BR BR BR BR break BR BR BR BR BL G BL G BL G BL G BL G BR BR BR BR break BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR break BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR BR break';
+            predefinedBlockNumX = 18;
+            predefinedBlockNumY = 29;
+            predefinedCanvasWidth = 600;
+            predefinedCanvasHeight = 900;
+            predefinedStroked = true;
         default:
             console.log('something broke :(');            
     }//switch end
     
     document.getElementById('userInput').value = predefinedPicture;
     
-    blockWidth = canvasWidth/predefinedBlockNum;
-    blockHeight = canvasHeight/predefinedBlockNum;
-        document.getElementById('userBlocks').value = predefinedBlockNum;
+    
+    canvas.width = predefinedCanvasWidth;
+    canvas.height = predefinedCanvasHeight;
+        document.getElementById('userCanvasWidth').value = predefinedCanvasWidth;
+        document.getElementById('userCanvasHeight').value = predefinedCanvasHeight;
+    
+    blockWidth = canvas.width/predefinedBlockNumX;
+    blockHeight = canvas.height/predefinedBlockNumY;
+        document.getElementById('userBlocksX').value = predefinedBlockNumX;
+        document.getElementById('userBlocksY').value = predefinedBlockNumY;        
+    
+    
     
     document.getElementById('stroke').checked = predefinedStroked;
     

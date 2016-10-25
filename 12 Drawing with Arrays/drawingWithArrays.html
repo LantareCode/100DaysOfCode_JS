@@ -3,39 +3,90 @@
     <head>
         <meta charset="utf-8">          
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script> 
+        
         
         <title>Drawing With Arrays</title>                        
         <meta name="description" content="Drawing With Arrays">
         <meta name="author" content="LantareCode">
         
-        
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="style.css">   
     </head> 
     <body>   
-        <center>Drawing with Arrays</center>
+        <center class="heading">Drawing with Arrays</center>
         <canvas id="canvas"></canvas>
         <center>  
-            <br/>           
-           <!-- Paste your string without line breaks: R R break G G break : <input type="text" id="userInput" value=''><br>                      -->  
-            <form>                
-                Paste your string: R R break G G break : <input type="text" id="userInput" value=''><br/>                
-                Image number of blocks (x,y): <input type="text" id="userBlocks" value=''><br/>
-                Stroke Blocks: <input type="checkbox" id="stroke" value="stroke" checked><br/>
-            </form> 
-            <div class='buttons' id='resetInput'>Reset Input</div> 
-            <div class='buttons' id='drawBtn'>Draw Button!</div>
             
-            <br/>
+            <form id="instructions">
+                <strong>Instructions</strong><br/>                
+                <strong>How it works</strong><br/>
+                Create a pixel drawing by writing it out in the format <i>(colour_code colour_code....break)</i>. <br/>
+                The colour_codes available currently can be seen in the list below. <br/>
+                Add break where you want a row to end. <br/><br/>
+                For example:<br/>
+                <i>BL W BL W BL break<br/> 
+                W BL W BL W break<br/> 
+                BL W BL W BL break<br/> 
+                W BL W BL W break<br/>
+                    BL W BL W BL break<br/></i>
+                Will give a simple 5x5 black and white chessboard.
+                <br/><br/>
+                
+                Some pre-defined drawings can be found at the bottom of the page.
+
+                                
+                <ul style="list-style-type:none">
+                    <strong>List of current colours</strong>
+                    <li style="color:#D2691E;">Orange - O</li>
+                    <li style="color:grey;">Grey - G</li>
+                    <li style="color:red;">Red - R</li>
+                    <li style="color:black;">Black - BL</li>
+                    <li style="color:white; background-color:grey;">White - W</li>
+                    <li style="color:#00CC00;">Bright Green - B_GR</li>
+                    <li style="color:#A1DD17;">Light Green - L_GR</li>
+                    <li style="color:#00FFFF;">Light Blue - L_B</li>
+                    <li style="color:#663300;">Brown - BR</li>
+                </ul> 
+                
+                <div class='buttons' id='hideBtn'>Hide</div>
+            </form>
+            <form>                
+                <label><strong>Paste your string: R R break G G break:</strong></label><br/>
+                <input type="text" id="userInput" value=''><br/>
+                
+                <br/>
+                <label><strong>Canvas size:</strong></label><br/>
+                    <label>Width:</label> <input class="textInputs" type="text" id="userCanvasWidth" value=''> <label>Height:</label> <input  class="textInputs" type="text" id="userCanvasHeight" value=''><br/>
+                
+                <br/>
+                <label><strong>Number of blocks (x,y):</strong></label><br/>
+                    <label>x (left to right):</label> <input class="textInputs" type="text" id="userBlocksX" value=''> <label>y (top to bottom):</label> <input class="textInputs" type="text" id="userBlocksY" value=''><br/>
+                
+                <br/>
+                <label><strong>Stroke Blocks:</strong></label> <input type="checkbox" id="stroke" value="stroke" checked><br/>                    
+                
+                <br/>
+                <div class='buttons' id='helpBtn'>Instructions</div> 
+                <div class='buttons' id='resetInput'>Reset Input</div>                 
+                <div class='buttons' id='drawBtn'>Draw!</div>
+                
+            </form>             
+            
+            
+            
             <form>
-                Some Pre-defined drawings:
+                <label><strong>Some Pre-defined drawings:</strong></label>
                 <select id='pictureSelect'>
                   <option value="chessboard" id="chessboard">Chessboard (5x5)</option>
                   <option value="pumpkin" id="pumpkin">Pumpkin (18x18)</option>
                   <option value="mushroom" id="mushroom">Super Mario Mushroom (16x16)</option>
-                </select><br/>
+                  <option value="creeper" id="creeper">Minecraft Creeper (18x29)</option>
+                </select>
+                <br/><br/>
+                <div class='buttons' id='displayBtn'>Show</div>
             </form>
-            <div class='buttons' id='displayBtn'>Display Button!</div>
+            
         </center>
         
         

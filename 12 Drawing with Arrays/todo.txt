@@ -2,7 +2,8 @@
 > Style the menu etc better. 
 > pop-up detailed instructions.
 
-Optional
-> add user ability to choose canvas size.
+Optional:
 > add option to Draw By Hand and Import String?
     
+Instructions wording
+Hide and show instructions
