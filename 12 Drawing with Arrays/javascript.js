@@ -26,6 +26,13 @@ window.onload = function(){
         $('#displayBtn').click(function() {            
             displayPicture();
         }); 
+        
+        $('#helpBtn').click(function() {            
+            instructions();
+        });
+        $('#hideBtn').click(function() {            
+            instructions();
+        });
     });
 };
 
@@ -38,6 +45,13 @@ function resetInput(){
     document.getElementById('stroke').checked = false;
 }
 
+
+function instructions(){    
+    if (document.getElementById('instructions').style.display === 'none')
+        document.getElementById('instructions').style.display = 'block';
+    else
+        document.getElementById('instructions').style.display = 'none';    
+}
 
 function changeUserPicture(){
     //Get canvas size
@@ -69,7 +83,7 @@ function changeUserPicture(){
         user_picture = document.getElementById('userInput').value;          
      
     draw(user_picture);
-}
+}// end changeUserPicture()
 
 function clear(){
     drawBlock(0,0, canvas.width, canvas.height, 'grey');
@@ -134,7 +148,7 @@ function draw(picture){
             blockX += blockWidth;            
         }//else end        
     }
-}
+}//end draw(picture)
 
 function drawBlock(x,y, width,height, colour){      
     canvasContext.fillStyle = colour;
@@ -213,4 +227,4 @@ function displayPicture(){
     document.getElementById('stroke').checked = predefinedStroked;
     
     draw(predefinedPicture);
-}
+}//end displayPicture()

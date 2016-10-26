@@ -529,3 +529,12 @@ Most functionality for Drawing with Arrays added. To Do: Style, instructions and
 Only a couple of touchups left.
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 84: Oct 26, 2016
+
+Finished Drawing with Arrays.
+
+**CodePen Link:** [Drawing with Arrays](http://codepen.io/LantareCode/full/pEBJZq/)
+
+**Folder Name:** 12 Drawing with Arrays

@@ -1,6 +1,6 @@
 {margin:0; padding:0;}
 
-html{background: #FFFAFA; font-family: 'Nunito', sans-serif;}
+html{background: #F1F1F1; font-family: 'Nunito', sans-serif;}
 
 .heading{
     font-size: 90px;
@@ -33,12 +33,16 @@ form{
     border-color: black;
 }
 
+input{
+    background: #F1F1F1;
+}
+
 ul, li{
     padding: 0;
 }
 
 #instructions{
-    /*display: none;*/
+    display: none;
 }
 
 .textInputs{
@@ -48,7 +52,8 @@ ul, li{
     width: 550px;
 }
 
-.buttons {      
+.buttons {
+    background: #E9E9E9;
     font-size: 16px;    
     border-radius: 8px;
     border: dashed;
@@ -60,7 +65,10 @@ ul, li{
     display: inline-block; width: 100px; height: 30px;
     
     cursor: pointer;
-    user-select: none; 
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
     
 }
 
