@@ -88,5 +88,7 @@ A simple project that draws a pixel-like picture based on the colours the user e
 
 **CodePen Link:** [Drawing with Arrays](http://codepen.io/LantareCode/full/pEBJZq/)
 
-**Screenshot:** ![https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif](https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif)
+**Screenshot:** 
+
+![https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif](https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif)
 
