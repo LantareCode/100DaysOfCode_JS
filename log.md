@@ -538,3 +538,8 @@ Finished Drawing with Arrays.
 **CodePen Link:** [Drawing with Arrays](http://codepen.io/LantareCode/full/pEBJZq/)
 
 **Folder Name:** 12 Drawing with Arrays
+
+
+### Day 85 - 88: Oct 27 - 28 & Oct 31 - Nov 1, 2016
+
+Played around with P5.js and Python
