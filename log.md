@@ -543,3 +543,10 @@ Finished Drawing with Arrays.
 ### Day 85 - 88: Oct 27 - 28 & Oct 31 - Nov 1, 2016
 
 Played around with P5.js and Python
+
+
+### Day 89 - 90: Nov 2-3, 2016
+
+Made my first small GUI app with Python and TkInter. Started a new small JavaScript project where things fall down.
+
+**Folder Name:** 14 Falling Pattern

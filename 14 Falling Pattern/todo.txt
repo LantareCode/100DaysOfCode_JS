@@ -1,0 +1,7 @@
+Print a pattern (custom shapes?) accross any size canvas
+
+when click fall to ground
+
+acceletrate when falls
+
+maybe bounce
