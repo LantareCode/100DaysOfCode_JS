@@ -6,11 +6,6 @@ window.onload = function(){
         canvas = document.getElementById('canvas');
         ctx = canvas.getContext('2d');
         
-        addBlocks_toArray();
-        
-        var framesPerSecond = 30;
-        setInterval(update, 1000/framesPerSecond);        
-        
         //resize the canvas to fill browser window dynamically
         window.addEventListener('resize', resizeCanvas, false);
         function resizeCanvas(){
@@ -18,6 +13,11 @@ window.onload = function(){
             canvas.height = window.innerHeight;
         }
         resizeCanvas();        
+        
+        addBlocks_toArray();
+        
+        var framesPerSecond = 30;
+        setInterval(update, 1000/framesPerSecond); 
     })();
 }
 
@@ -26,25 +26,22 @@ function update(){
     move();
 }
 
-/*var x_location = 500;
-var y_location = 5;
-
-//When we click affect these two values.
-var y_velocity = 0;
-var y_acceleration = 0;*/
 
 
 
 function draw(){    
-    drawBlock(0,0, canvas.width,canvas.height, 'black');     
-    /*drawBlock(x_location,y_location, 30,30, 'white');*/
+    drawBlock(0,0, canvas.width,canvas.height, '#191134'); 
+    
     for(var i = 0; i < blockArr.length; i++)
         blockArr[i].draw();
+    
+    ctx.fillStyle = 'white';
+    ctx.font = 'normal bold 12px sans-serif'; 
+    ctx.textAlign = 'center'; 
+    ctx.fillText('(click!)', canvas.width/2, 20);
 }
 
-function move(){
-   /* y_location += y_velocity;    
-    y_velocity += y_acceleration; */   
+function move(){    
     for(var i = 0; i < blockArr.length; i++)
         blockArr[i].move();
     
@@ -65,28 +62,37 @@ function drawBlock(x,y, width,height, color){
 
 
 var tempUpdateX = tempUpdateY = 0;
+var blockSize = 30;
+
+/*var blockSize = 5;*/
+
 function block(){//block item
     //attributes
-    this.width = 30;
-    this.height = 30;
+    this.width = this.height = blockSize;
     
-    /*this.x_location = Math.floor((Math.random() * 100) + 1);
-    this.y_location = Math.floor((Math.random() * 100) + 1);*/
     this.x_location = 5;
-    this.y_location = 5;
+    this.y_location = -300;
     
     this.y_velocity = 0;
     this.y_acceleration = 0;//random value
     
+    this.bounce = 0.9;
+    
     /*this.color = 'white';*/
-    var color = ['#390099', '#9E0059', '#FF0054', '#FFBD00', '#05E177'];
+    var color = ['#390099', '#9E0059', '#FF0054', '#FFBD00', '#05E177', '#FCC035', '#01BEFF', '#F00040', '#A9DC5C'];    
     var colIndex = Math.floor(Math.random()*color.length);
     
     //functions
     this.draw = function(){
-       drawBlock(this.x_location,this.y_location, this.width,this.height, color[colIndex]);
+        drawBlock(this.x_location,this.y_location, this.width,this.height, color[colIndex]);        
     }    
     this.move = function(){
+        
+        if(this.y_location > canvas.height-this.height){
+            this.y_velocity= -(this.y_velocity * this.bounce);
+            this.bounce -= 0.1;
+        }
+        
         this.y_location += this.y_velocity;    
         this.y_velocity += this.y_acceleration;  
     }
@@ -107,29 +113,44 @@ function block(){//block item
 
 function addBlocks_toArray(){ 
     //fill the screen with a pattern.
-    var rows = 100; //change this number based on block width
-    var cols = 100; //change this number based on block height   
+    var blocks_per_row = canvas.width/blockSize; //change this number based on block width
+    var num_rows = canvas.height/blockSize; //change this number based on block height   
     
-    for(var j = 0; j < cols; j++){
+    for(var j = 0; j < num_rows; j++){
         row();
     }
     function row(){
-        for(var i = 0; i < rows; i++){    
+        for(var i = 0; i < blocks_per_row; i++){    
             var tempBlock = new block();
             tempBlock.updateStarting_yLocations(); 
             tempBlock.updateStarting_xLocations();   
-            tempUpdateX +=60;
+            tempUpdateX += (blockSize*2);
             blockArr.push(tempBlock);              
         }
         tempUpdateX = 0;
-        tempUpdateY +=60;
+        tempUpdateY +=(blockSize*2);
     }
 }
 
-
 //click
+var started = false;
 //When we click we want everything to fall down.
 document.addEventListener('click', function(){ 
-    for(var i = 0; i < blockArr.length; i++)
-        blockArr[i].startFalling();
+    if (started === false){
+        for(var i = 0; i < blockArr.length; i++)
+            blockArr[i].startFalling();
+        
+        started = true;
+    }
+    else{//Reserts everything
+        blockSize = Math.floor((Math.random() * 30) + 5);
+        drawBlock(0,0, canvas.width,canvas.height, 'black');
+        blockArr = [];
+        tempUpdateX= tempUpdateY = 0;
+        addBlocks_toArray();  
+        started = false;
+    }
 });
+
+
+

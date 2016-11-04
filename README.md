@@ -92,3 +92,14 @@ A simple project that draws a pixel-like picture based on the colours the user e
 
 ![https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif](https://i.gyazo.com/737c380f9226299b2d523b7f111d6f9e.gif)
 
+
+
+###9. Falling Things  - Completed Day 91: November 4, 2016
+A simple project that draws blocks and when you click they fall down and bounce until they move off the screen.
+
+**CodePen Link:** [Falling Blocks](http://codepen.io/LantareCode/full/JbjryL/)
+
+**Screenshot:** 
+
+![https://i.gyazo.com/fd5383d0deae1314cec495a740c196dd.gif](https://i.gyazo.com/fd5383d0deae1314cec495a740c196dd.gif)
+
