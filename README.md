@@ -99,5 +99,5 @@ A simple project that draws blocks and when you click they fall down and bounce 
 
 **CodePen Link:** [Falling Blocks](http://codepen.io/LantareCode/full/JbjryL/)
 
-**Screenshot:** ![https://i.gyazo.com/fd5383d0deae1314cec495a740c196dd.gif](https://i.gyazo.com/fd5383d0deae1314cec495a740c196dd.gif)
+**Screenshot:** ![https://i.gyazo.com/b00111426f7a62fe141c390dcdc09a4f.gif](https://i.gyazo.com/b00111426f7a62fe141c390dcdc09a4f.gif)
 
