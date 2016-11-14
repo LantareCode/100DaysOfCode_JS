@@ -559,3 +559,9 @@ Finished Falling Blocks.
 **CodePen Link:** [Falling Blocks](http://codepen.io/LantareCode/full/JbjryL/)
 
 **Folder Name:** 14 Falling Blocks
+
+
+### Day 92 - 100: Nov 5 - 12 & Nov 14, 2016
+
+Spent the final days of 100 Days of Code reviewing and practicing what I have learnt up to this point.
+

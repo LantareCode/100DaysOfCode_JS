@@ -62,7 +62,7 @@ function drawBlock(x,y, width,height, color){
 
 
 var tempUpdateX = tempUpdateY = 0;
-var blockSize = 30;
+var blockSize = 25;
 
 /*var blockSize = 5;*/
 
